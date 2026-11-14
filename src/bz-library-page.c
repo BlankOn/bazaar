@@ -21,6 +21,8 @@
 #include <glib/gi18n.h>
 #include <bzvala.h>
 
+/* DOWNSTREAM PATCH (APT system updates): see ai-patches/DIFF.md */
+#include "bz-apt-updates-card.h"
 #include "bz-entry-group.h"
 #include "bz-installed-tile.h"
 #include "bz-library-page.h"
@@ -442,6 +444,8 @@ bz_library_page_class_init (BzLibraryPageClass *klass)
   g_type_ensure (BZ_TYPE_INSTALLED_TILE);
   g_type_ensure (BZ_TYPE_TRANSACTION_TILE);
   g_type_ensure (BZ_TYPE_UPDATES_CARD);
+  /* DOWNSTREAM PATCH (APT system updates) */
+  g_type_ensure (BZ_TYPE_APT_UPDATES_CARD);
 
   gtk_widget_class_set_template_from_resource (widget_class, "/io/github/kolunmi/Bazaar/bz-library-page.ui");
   bz_widget_class_bind_all_util_callbacks (widget_class);

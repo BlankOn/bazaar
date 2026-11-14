@@ -31,6 +31,13 @@ template $BzLibraryPage: Adw.Bin {
           icon-name: "library-symbolic";
           title: _("No Apps Found");
           description: "";
+
+          // DOWNSTREAM PATCH (APT system updates): keep system updates reachable with zero Flatpak apps
+          child: Adw.Clamp {
+            maximum-size: 650;
+
+            child: $BzAptUpdatesCard {};
+          };
         };
       }
 
@@ -72,6 +79,9 @@ template $BzLibraryPage: Adw.Bin {
               Box non_search_content {
                 orientation: vertical;
                 visible: bind $is_empty_string(search_bar.text) as <bool>;
+
+                // DOWNSTREAM PATCH (APT system updates): see ai-patches/DIFF.md
+                $BzAptUpdatesCard {}
 
                 Revealer {
                   reveal-child: bind $invert_boolean($is_empty(template.state as <$BzStateInfo>.available-updates) as <bool>) as <bool>;

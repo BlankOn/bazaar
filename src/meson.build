@@ -67,6 +67,9 @@ bz_sources = files(
   'bz-application-map-factory.c',
   'bz-application.c',
   'bz-apps-page.c',
+  # DOWNSTREAM PATCH (APT system updates): see ai-patches/DIFF.md
+  'bz-apt-updates.c',
+  'bz-apt-updates-card.c',
   'bz-appstream-description-render.c',
   'bz-appstream-parser.c',
   'bz-article-list-view.c',
@@ -201,6 +204,8 @@ blueprints = custom_target('blueprints',
     'bz-app-size-dialog.blp',
     'bz-app-tile.blp',
     'bz-apps-page.blp',
+    # DOWNSTREAM PATCH (APT system updates)
+    'bz-apt-updates-card.blp',
     'bz-appstream-description-render.blp',
     'bz-article.blp',
     'bz-article-tile.blp',

@@ -23,7 +23,10 @@
     "--system-talk-name=org.freedesktop.Flatpak.SystemHelper",
     "--filesystem=/var/tmp",
     "--filesystem=~/.var/app",
-    "--system-talk-name=org.freedesktop.Accounts"
+    "--system-talk-name=org.freedesktop.Accounts",
+    "--system-talk-name=org.freedesktop.PackageKit",
+    "--system-talk-name=org.freedesktop.login1",
+    "--talk-name=org.gnome.SessionManager"
   ],
   "cleanup": [
     "/share/zsh",
