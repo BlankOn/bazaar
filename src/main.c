@@ -56,6 +56,14 @@ main (int   argc,
     {
       g_autoptr (BzApplication) app = NULL;
 
+      /* DOWNSTREAM PATCH (APT system updates): GTK renderer workaround, see
+       * ai-patches/DIFF.md hook H13. GTK 4.23's default Vulkan renderer draws
+       * the Search page without text and with blank tiles; the GL renderer
+       * draws it correctly. Must run before GTK initializes. Setting
+       * GSK_RENDERER yourself (e.g. GSK_RENDERER=vulkan) still wins. */
+      if (g_getenv ("GSK_RENDERER") == NULL)
+        g_setenv ("GSK_RENDERER", "gl", FALSE);
+
       /* Init Bazaar GTK Extensions (see ../bge/) */
       bge_init ();
 
