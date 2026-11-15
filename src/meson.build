@@ -70,6 +70,8 @@ bz_sources = files(
   # DOWNSTREAM PATCH (APT system updates): see ai-patches/DIFF.md
   'bz-apt-updates.c',
   'bz-apt-updates-card.c',
+  # DOWNSTREAM PATCH (APT system updates): notifications
+  'bz-update-notifier.c',
   'bz-appstream-description-render.c',
   'bz-appstream-parser.c',
   'bz-article-list-view.c',

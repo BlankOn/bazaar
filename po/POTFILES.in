@@ -23,6 +23,7 @@ src/bz-apps-page.c
 src/bz-apt-updates.c
 src/bz-apt-updates-card.blp
 src/bz-apt-updates-card.c
+src/bz-update-notifier.c
 src/bz-appstream-parser.c
 src/bz-article-list-view.c
 src/bz-article-tile.blp

@@ -94,5 +94,15 @@
       <default>0</default>
       <summary>timestamp of the last "updates out of date" notification</summary>
     </key>
+    <!-- DOWNSTREAM PATCH (APT system updates): see ai-patches/DIFF.md -->
+    <key name="update-notifications" type="b">
+      <default>true</default>
+      <summary>Update Notifications</summary>
+      <description>Show a daily notification when app (Flatpak) or system (APT) updates are available. Also keeps Bazaar's background service running after login.</description>
+    </key>
+    <key name="last-update-notification" type="x">
+      <default>0</default>
+      <summary>timestamp of the last "updates available" notification</summary>
+    </key>
   </schema>
 </schemalist>

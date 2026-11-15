@@ -404,6 +404,28 @@ auto_update_enabled (void)
   return enabled;
 }
 
+/* DOWNSTREAM PATCH (APT system updates): see ai-patches/DIFF.md. The
+ * "updates available" notifications come from the hourly update worker, so
+ * the daemon has to stay alive for them too. */
+static int
+update_notifications_enabled (void)
+{
+  FILE *fp      = NULL;
+  char  buf[8]  = { 0 };
+  int   enabled = 0;
+
+  fp = popen ("gsettings get io.github.kolunmi.Bazaar update-notifications 2>/dev/null", "r");
+  if (fp == NULL)
+    return 0;
+
+  if (fgets (buf, sizeof (buf), fp) != NULL)
+    enabled = (strncmp (buf, "true", 4) == 0);
+
+  pclose (fp);
+
+  return enabled;
+}
+
 static void
 cancel_idle_timer (void)
 {
@@ -445,6 +467,13 @@ on_idle_timeout (sd_event_source *s,
   if (auto_update_enabled ())
     {
       log_msg ("Idle, but auto update is on so staying alive");
+      return 0;
+    }
+
+  /* DOWNSTREAM PATCH (APT system updates) */
+  if (update_notifications_enabled ())
+    {
+      log_msg ("Idle, but update notifications are on so staying alive");
       return 0;
     }
 

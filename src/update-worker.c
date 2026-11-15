@@ -30,6 +30,8 @@
 #include <bzvala.h>
 #include "bz-flatpak-private.h"
 #include "update-worker.h"
+/* DOWNSTREAM PATCH (APT system updates): see ai-patches/DIFF.md */
+#include "bz-update-notifier.h"
 
 #define DAILY_WINDOW_START_HOUR    6
 #define DAILY_WINDOW_SPREAD_HOURS  6
@@ -77,6 +79,10 @@ run_update_worker (int   argc,
   settings                  = g_settings_new (APPLICATION_ID);
   auto_update               = g_settings_get_boolean (settings, "auto-update");
   auto_update_notifications = g_settings_get_boolean (settings, "auto-update-notifications");
+
+  /* DOWNSTREAM PATCH (APT system updates): "updates available" notification
+   * for APT, and for Flatpak when upstream does not auto-update it */
+  bz_update_notifier_run (settings, auto_update);
 
   if (!auto_update)
     {

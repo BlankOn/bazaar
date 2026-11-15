@@ -35,6 +35,8 @@
 
 #include "bz-application-map-factory.h"
 #include "bz-application.h"
+/* DOWNSTREAM PATCH (APT system updates): see ai-patches/DIFF.md */
+#include "bz-update-notifier.h"
 #include "bz-appstream-parser.h"
 #include "bz-auth-state.h"
 #include <bzvala.h>
@@ -1069,6 +1071,9 @@ bz_application_init (BzApplication *self)
       app_actions,
       G_N_ELEMENTS (app_actions),
       self);
+  /* DOWNSTREAM PATCH (APT system updates): app.open-library, used by the
+   * "updates available" notification */
+  bz_update_notifier_add_app_actions (G_APPLICATION (self));
   gtk_application_set_accels_for_action (
       GTK_APPLICATION (self),
       "app.quit",

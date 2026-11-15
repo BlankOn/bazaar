@@ -51,5 +51,13 @@ configure_file(
   install_dir: get_option('datadir') / 'gnome-shell' / 'search-providers'
 )
 
+# DOWNSTREAM PATCH (APT system updates): start bazaar-daemon at login while
+# update notifications are enabled. Named bazaar.desktop like the per-user
+# autostart file upstream writes for automatic updates, which overrides it.
+install_data('bazaar-update-notifications.desktop',
+  rename: 'bazaar.desktop',
+  install_dir: get_option('sysconfdir') / 'xdg' / 'autostart'
+)
+
 subdir('icons')
 subdir('dbus')
