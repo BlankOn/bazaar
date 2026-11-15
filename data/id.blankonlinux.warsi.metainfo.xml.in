@@ -13,7 +13,7 @@
       and installing Flatpak apps and add-ons, particularly from Flathub.
     </p>
     <p>
-      Warsi is based on Bazaar and heavily patched by BlankOn Linux. Besides
+      Warsi is based on Bazaar and patched by BlankOn Linux. Besides
       Flatpak apps, it also keeps the system's Debian APT packages up to date.
     </p>
     <ul>

@@ -909,8 +909,8 @@ bz_application_about_action (GSimpleAction *action,
       _ ("Special Thanks"),
       special_thanks);
 
-  /* DOWNSTREAM PATCH (Warsi rebrand): "Originally Bazaar, heavily patched by
-   * BlankOn Linux" under the name; see ai-patches/PLAN.md, "Rebrand". */
+  /* DOWNSTREAM PATCH (Warsi rebrand): "Originally Bazaar, patched by BlankOn
+   * Linux" under the name; see ai-patches/PLAN.md, "Rebrand". */
   bz_rebrand_about_dialog (ADW_ABOUT_DIALOG (dialog));
 
   adw_dialog_present (dialog, GTK_WIDGET (window));
