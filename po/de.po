@@ -38,8 +38,8 @@ msgstr "Hinzufügen, Entfernen oder Aktualisieren von Apps auf diesem Computer"
 
 #: data/id.blankonlinux.warsi.desktop.in:10
 #, fuzzy
-msgid "System;Package;Manager;Discover;Flatpak;Software;App;Store;"
-msgstr "GTK;System;Paketverwaltung;Discover;Flatpak;Software;Store;"
+msgid "System;Package;Manager;Discover;Flatpak;Software;App;Store;Warung Aplikasi;Bazaar;GNOME Software;"
+msgstr "GTK;System;Paketverwaltung;Discover;Flatpak;Software;Store;Warung Aplikasi;Bazaar;GNOME Software;"
 
 #: data/id.blankonlinux.warsi.desktop.in:17
 msgid "New Window"

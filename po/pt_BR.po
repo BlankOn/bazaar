@@ -37,8 +37,8 @@ msgid "Add, remove or update flatpak software on this computer"
 msgstr "Adicione, remova ou atualize flatpaks neste computador"
 
 #: data/id.blankonlinux.warsi.desktop.in:11
-msgid "System;Package;Manager;Discover;Flatpak;Software;App;Store;"
-msgstr "GTK;Sistema;GerenciadorDePacotes;Discover;Flatpak;Aplicativos;Loja;"
+msgid "System;Package;Manager;Discover;Flatpak;Software;App;Store;Warung Aplikasi;Bazaar;GNOME Software;"
+msgstr "GTK;Sistema;GerenciadorDePacotes;Discover;Flatpak;Aplicativos;Loja;Software;Store;Warung Aplikasi;Bazaar;GNOME Software;"
 
 #: data/id.blankonlinux.warsi.desktop.in:18
 msgid "New Window"

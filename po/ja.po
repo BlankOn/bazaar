@@ -34,7 +34,7 @@ msgid "Add, remove or update flatpak software on this computer"
 msgstr "Flatpakのソフトウェアをこのコンピューターに追加、削除します"
 
 #: data/id.blankonlinux.warsi.desktop.in:11
-msgid "System;Package;Manager;Discover;Flatpak;Software;App;Store;"
+msgid "System;Package;Manager;Discover;Flatpak;Software;App;Store;Warung Aplikasi;Bazaar;GNOME Software;"
 msgstr ""
 
 #: data/id.blankonlinux.warsi.desktop.in:18

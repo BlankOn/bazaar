@@ -39,8 +39,8 @@ msgstr ""
 "počítači"
 
 #: data/id.blankonlinux.warsi.desktop.in:11
-msgid "System;Package;Manager;Discover;Flatpak;Software;App;Store;"
-msgstr "Systém;Správce;Balíčků;Discover;Flatpak;Software;Aplikace;Obchod;"
+msgid "System;Package;Manager;Discover;Flatpak;Software;App;Store;Warung Aplikasi;Bazaar;GNOME Software;"
+msgstr "Systém;Správce;Balíčků;Discover;Flatpak;Software;Aplikace;Obchod;Store;Warung Aplikasi;Bazaar;GNOME Software;"
 
 #: data/id.blankonlinux.warsi.desktop.in:18
 msgid "New Window"

@@ -37,8 +37,8 @@ msgstr "Dodawaj, usuwaj i aktualizuj flatpaki na tym komputerze"
 # Note from Marcel:
 # Są to "search queries", więc dobrym pomysłem jest oprócz przetłumaczenia domyślnych jest wymyślenie nowych, które mógły użytkownik posługujący się danym językiem docelowym wpisać w pole wyszukiwania aplikacji w menu aplikacji. Tak też zrobiłem.
 #: data/id.blankonlinux.warsi.desktop.in:11
-msgid "System;Package;Manager;Discover;Flatpak;Software;App;Store;"
-msgstr "System;Package;Manager;Discover;Flatpak;Software;Store;Marketplace;Pakiet;Paczka;Zarządzanie;Oprogramowaniem;Odkryj;Odkrywaj;Odkrywca;Oprogramowanie;Sklep;Bazar;AppStore;Play;Aplikacja;Aplikacje;Rynek;Targ;Bazar;Apki;Apka;Program;Programy;Pobieranie;Pobierz;Instalowanie;Instaluj;Instalacja;Flathub;"
+msgid "System;Package;Manager;Discover;Flatpak;Software;App;Store;Warung Aplikasi;Bazaar;GNOME Software;"
+msgstr "System;Package;Manager;Discover;Flatpak;Software;Store;Marketplace;Pakiet;Paczka;Zarządzanie;Oprogramowaniem;Odkryj;Odkrywaj;Odkrywca;Oprogramowanie;Sklep;Bazar;AppStore;Play;Aplikacja;Aplikacje;Rynek;Targ;Bazar;Apki;Apka;Program;Programy;Pobieranie;Pobierz;Instalowanie;Instaluj;Instalacja;Flathub;Warung Aplikasi;Bazaar;GNOME Software;"
 
 #: data/id.blankonlinux.warsi.desktop.in:18
 msgid "New Window"

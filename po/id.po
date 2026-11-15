@@ -45,9 +45,8 @@ msgstr "Tambah, hapus atau perbarui aplikasi Flatpak pada komputer ini"
 
 # Added "Aplikasi" and "Pusat Aplikasi" (App Center) to search queries
 #: data/id.blankonlinux.warsi.desktop.in:11
-msgid "System;Package;Manager;Discover;Flatpak;Software;App;Store;"
-msgstr ""
-"Sistem;Package;Manager;Discover;Flatpak;Aplikasi;Toko;Pusat;Manajer;Paket;"
+msgid "System;Package;Manager;Discover;Flatpak;Software;App;Store;Warung Aplikasi;Bazaar;GNOME Software;"
+msgstr "Sistem;Package;Manager;Discover;Flatpak;Aplikasi;Toko;Pusat;Manajer;Paket;Software;Store;Warung Aplikasi;Bazaar;GNOME Software;"
 
 #: data/id.blankonlinux.warsi.desktop.in:18
 msgid "New Window"

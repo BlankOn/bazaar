@@ -35,8 +35,8 @@ msgstr ""
 "Afegeix, elimina o actualitza el programari flatpak en aquest ordinador"
 
 #: data/id.blankonlinux.warsi.desktop.in:11
-msgid "System;Package;Manager;Discover;Flatpak;Software;App;Store;"
-msgstr "Sistema;Paquet;Gestor;Descobrir;Flatpak:Programari;Aplicació;App;Botiga;"
+msgid "System;Package;Manager;Discover;Flatpak;Software;App;Store;Warung Aplikasi;Bazaar;GNOME Software;"
+msgstr "Sistema;Paquet;Gestor;Descobrir;Flatpak:Programari;Aplicació;App;Botiga;Software;Store;Warung Aplikasi;Bazaar;GNOME Software;"
 
 #: data/id.blankonlinux.warsi.desktop.in:18
 msgid "New Window"

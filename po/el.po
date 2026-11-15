@@ -36,9 +36,8 @@ msgstr ""
 
 #: data/id.blankonlinux.warsi.desktop.in:11
 #| msgid "GTK;System;PackageManager;Discover;Flatpak;Software;Store;"
-msgid "System;Package;Manager;Discover;Flatpak;Software;App;Store;"
-msgstr ""
-"Σύστημα;Πακέτο;Διαχειριστής;Ανακάλυψη;Flatpak;Λογισμικό;Εφαρμογή;Κατάστημα;"
+msgid "System;Package;Manager;Discover;Flatpak;Software;App;Store;Warung Aplikasi;Bazaar;GNOME Software;"
+msgstr "Σύστημα;Πακέτο;Διαχειριστής;Ανακάλυψη;Flatpak;Λογισμικό;Εφαρμογή;Κατάστημα;Software;Store;Warung Aplikasi;Bazaar;GNOME Software;"
 
 #: data/id.blankonlinux.warsi.desktop.in:18
 msgid "New Window"

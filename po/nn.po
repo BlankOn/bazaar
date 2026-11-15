@@ -34,9 +34,8 @@ msgstr ""
 "Legg til, fjern eller oppdater flatpak-programvare på denne datamaskina"
 
 #: data/id.blankonlinux.warsi.desktop.in:11
-msgid "System;Package;Manager;Discover;Flatpak;Software;App;Store;"
-msgstr ""
-"System;Package;Manager;Discover;Flatpak;Software;App;Store;Pakke;Handterar;Oppdag;Programvare;Butikk;"
+msgid "System;Package;Manager;Discover;Flatpak;Software;App;Store;Warung Aplikasi;Bazaar;GNOME Software;"
+msgstr "System;Package;Manager;Discover;Flatpak;Software;App;Store;Pakke;Handterar;Oppdag;Programvare;Butikk;Warung Aplikasi;Bazaar;GNOME Software;"
 
 #: data/id.blankonlinux.warsi.desktop.in:18
 msgid "New Window"
