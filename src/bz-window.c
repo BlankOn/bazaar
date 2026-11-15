@@ -431,11 +431,11 @@ static char *
 format_title (gpointer    object,
               const char *title)
 {
-  // Translators: Please treat "Bazaar" as a brand name and avoid translating.
-  if (title == NULL || *title == '\0' || g_strcmp0 (title, _ ("Bazaar")) == 0)
-    return g_strdup (_ ("Bazaar"));
-  /* Translators: Please treat "Bazaar" as a brand name and avoid translating. %s is the title of the current page. */
-  return g_strdup_printf (_ ("Bazaar — %s"), title);
+  // Translators: Please treat "Warsi" and "Bazaar" as brand names and avoid translating.
+  if (title == NULL || *title == '\0' || g_strcmp0 (title, _ ("Warsi")) == 0)
+    return g_strdup (_ ("Warsi"));
+  /* Translators: Please treat "Warsi" and "Bazaar" as brand names and avoid translating. %s is the title of the current page. */
+  return g_strdup_printf (_ ("Warsi — %s"), title);
 }
 
 static gboolean
@@ -904,7 +904,7 @@ bz_window_class_init (BzWindowClass *klass)
   g_type_ensure (BZ_TYPE_LIBRARY_PAGE);
   g_type_ensure (BZ_TYPE_FLATHUB_PAGE);
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/kolunmi/Bazaar/bz-window.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/id/blankonlinux/warsi/bz-window.ui");
   bz_widget_class_bind_all_util_callbacks (widget_class);
 
   gtk_widget_class_bind_template_child (widget_class, BzWindow, navigation_view);
@@ -1070,8 +1070,8 @@ transact_fiber (TransactData *data)
         {
           GtkWidget *window = NULL;
           window            = GTK_WIDGET (gtk_application_get_active_window (GTK_APPLICATION (g_application_get_default ())));
-          // Translators: Please treat "Bazaar" as a brand name and avoid translating.
-          bz_show_error_for_widget (window, _ ("You can't remove Bazaar from Bazaar!"), _ ("You can't remove Bazaar from Bazaar!"));
+          // Translators: Please treat "Warsi" and "Bazaar" as brand names and avoid translating.
+          bz_show_error_for_widget (window, _ ("You can't remove Warsi from Warsi!"), _ ("You can't remove Warsi from Warsi!"));
           return dex_future_new_false ();
         }
     }

@@ -31,7 +31,7 @@
 G_BEGIN_DECLS
 
 /* Called by the background update worker (update-worker.c) on every run,
- * i.e. about once an hour while bazaar-daemon is alive. Sends at most one
+ * i.e. about once an hour while warsi-daemon is alive. Sends at most one
  * notification a day, and only when updates are pending.
  *
  * flatpak_auto_updated: TRUE when upstream's automatic updates are on. Then

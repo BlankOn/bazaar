@@ -25,33 +25,34 @@ msgstr ""
 "X-DL-Domain: po\n"
 "X-DL-State: Translating\n"
 
-#: data/io.github.kolunmi.Bazaar.desktop.in:2
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:7 src/bz-window.blp:47
+#: data/id.blankonlinux.warsi.desktop.in:2
+#: data/id.blankonlinux.warsi.metainfo.xml.in:7 src/bz-window.blp:47
 #: src/bz-window.blp:203 src/bz-window.c:387 src/bz-window.c:388
-msgid "Bazaar"
+#, fuzzy
+msgid "Warsi"
 msgstr "Basar"
 
-#: data/io.github.kolunmi.Bazaar.desktop.in:3
+#: data/id.blankonlinux.warsi.desktop.in:3
 msgid "App Store"
 msgstr "Gwerthji App"
 
-#: data/io.github.kolunmi.Bazaar.desktop.in:4
+#: data/id.blankonlinux.warsi.desktop.in:4
 msgid "Add, remove or update flatpak software on this computer"
 msgstr "Keworra, dilea, po nowedhi medhelweyth flatpak war'n amontyell ma"
 
-#: data/io.github.kolunmi.Bazaar.desktop.in:10
+#: data/id.blankonlinux.warsi.desktop.in:10
 msgid "System;Package;Manager;Discover;Flatpak;Software;App;Store;"
 msgstr "System;DyghtyerFardellow;Trovya;Flatpak;Medhelweyth;App;Gwerthji;"
 
-#: data/io.github.kolunmi.Bazaar.desktop.in:17
+#: data/id.blankonlinux.warsi.desktop.in:17
 msgid "New Window"
 msgstr "Fenester Nowydh"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:8
+#: data/id.blankonlinux.warsi.metainfo.xml.in:8
 msgid "Discover and install apps"
 msgstr "Trovya ha lea appys"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:10
+#: data/id.blankonlinux.warsi.metainfo.xml.in:10
 msgid ""
 "A fast and modern app store for Linux with a focus on discovering and "
 "installing Flatpak apps and add-ons, particularly from Flathub."
@@ -59,43 +60,43 @@ msgstr ""
 "Gwerthji appys snell hag arnowydh rag Linux gans fog war drovya ha lea appys "
 "hag ystynansow Flatpak, dres oll dhyworth Flathub."
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:15
+#: data/id.blankonlinux.warsi.metainfo.xml.in:15
 msgid "Queue multiple installs and keep browsing"
 msgstr "Lostya meur a leyansow ha pesya ow peuri"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:16
+#: data/id.blankonlinux.warsi.metainfo.xml.in:16
 msgid "Easily view app permissions"
 msgstr "Gweles kummyasow app yn es"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:17
+#: data/id.blankonlinux.warsi.metainfo.xml.in:17
 msgid "Sign in to Flathub to view and manage your favorites"
 msgstr "Omgelmi dhe Flathub rag gweles ha dyghtya agas appys drudh"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:18
+#: data/id.blankonlinux.warsi.metainfo.xml.in:18
 msgid "Search apps directly from GNOME Shell"
 msgstr "Hwilas appys dhyworth GNOME Shell didro"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:30 src/bz-application.c:766
+#: data/id.blankonlinux.warsi.metainfo.xml.in:30 src/bz-application.c:766
 msgid "The Bazaar Contributors"
 msgstr "An Kevriysi Vasar"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:55
+#: data/id.blankonlinux.warsi.metainfo.xml.in:55
 msgid "The home page displaying Flathub apps"
 msgstr "An folen dre ow tispletya appys Flathub"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:59
+#: data/id.blankonlinux.warsi.metainfo.xml.in:59
 msgid "Exhibit app page"
 msgstr "Folen app diskwedhyn"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:63
+#: data/id.blankonlinux.warsi.metainfo.xml.in:63
 msgid "Library page"
 msgstr "Folen lyverva"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:67
+#: data/id.blankonlinux.warsi.metainfo.xml.in:67
 msgid "Search page"
 msgstr "Folen hwithrans"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:71
+#: data/id.blankonlinux.warsi.metainfo.xml.in:71
 msgid "Category page"
 msgstr "Folen glass"
 
@@ -767,7 +768,7 @@ msgid ""
 "\n"
 "You can then remove this Flatpak version with\n"
 "\n"
-"<tt>flatpak uninstall io.github.kolunmi.Bazaar</tt>"
+"<tt>flatpak uninstall id.blankonlinux.warsi</tt>"
 msgstr ""
 "An versyons moy diwettha a Ubuntu re skombla an rewlys diogeledh defowt, ow "
 "kul <b>analladow dhe lea appys</b> dhyworth an versyon Flatpak a Vasar, "
@@ -777,7 +778,7 @@ msgstr ""
 "\n"
 "Hwi a yll dilea an versyon Flatpak ma gans\n"
 "\n"
-"<tt>flatpak uninstall io.github.kolunmi.Bazaar</tt>"
+"<tt>flatpak uninstall id.blankonlinux.warsi</tt>"
 
 #: src/bz-application.c:1036
 msgid "Continue Anyway"
@@ -809,11 +810,8 @@ msgid "Set Up Flathub?"
 msgstr "Selya Flathub?"
 
 #: src/bz-application.c:1157
-msgid ""
-"Flathub is not set up on this system. You will not be able to browse and "
-"install applications in Bazaar if its unavailable.\n"
-"\n"
-"You can still use Bazaar to browse and remove already installed apps."
+#, fuzzy
+msgid "Flathub is not set up on this system. You will not be able to browse and install applications in Warsi if its unavailable.\n\nYou can still use Warsi to browse and remove already installed apps."
 msgstr ""
 "Flathub nag yw selys war'n system ma. Ny yllowgh peuri ha lea appys yn Basar "
 "mars ankavadow yw.\n"
@@ -912,11 +910,8 @@ msgid "Additional dependencies may take extra space"
 msgstr "Medhelweyth serghek keworransel a yll kemeres moy spas"
 
 #: src/bz-bundle-install-dialog.blp:232
-msgid ""
-"Installing this app may require adding a new software source. Other apps "
-"from this source will show up in Bazaar.\n"
-"\n"
-"Only add this source if you're sure you trust it."
+#, fuzzy
+msgid "Installing this app may require adding a new software source. Other apps from this source will show up in Warsi.\n\nOnly add this source if you're sure you trust it."
 msgstr ""
 "Ow lea an app ma a yll rekwirya ow keworra devedhyans medhelweyth nowydh. "
 "Appys erel dhyworth an devedhyans ma a wra diskwedhes yn Basar.\n"
@@ -2856,7 +2851,8 @@ msgid "Main Menu"
 msgstr "Pennrol"
 
 #: src/bz-window.blp:227
-msgid "You are running a new version of Bazaar!"
+#, fuzzy
+msgid "You are running a new version of Warsi!"
 msgstr "Owth eksekutya owgh hwi dyllans nowydh a Vasar!"
 
 #: src/bz-window.blp:228
@@ -2898,11 +2894,13 @@ msgid "_Keyboard Shortcuts"
 msgstr "_Kesunyansow Vysowek"
 
 #: src/bz-window.blp:324
-msgid "_About Bazaar"
+#, fuzzy
+msgid "_About Warsi"
 msgstr "_A-dro dhe Vasar"
 
 #: src/bz-window.blp:330
-msgid "_Quit Bazaar"
+#, fuzzy
+msgid "_Quit Warsi"
 msgstr "_Kwytya Basar"
 
 #: src/bz-window.blp:355
@@ -2911,8 +2909,8 @@ msgstr "Omdhigelmi"
 
 #. Translators: %s is the title of the current page
 #: src/bz-window.c:390
-#, c-format
-msgid "Bazaar — %s"
+#, c-format, fuzzy
+msgid "Warsi — %s"
 msgstr "Basar — %s"
 
 #: src/bz-window.c:635 src/bz-window.c:673
@@ -2920,7 +2918,8 @@ msgid "Failed to launch application"
 msgstr "Ny yllir lonchya app"
 
 #: src/bz-window.c:925
-msgid "You can't remove Bazaar from Bazaar!"
+#, fuzzy
+msgid "You can't remove Warsi from Warsi!"
 msgstr "Ny yllowgh remova Basar dhyworth Basar!"
 
 #: src/bz-window.c:1238 src/bz-window.c:1272
@@ -3407,8 +3406,9 @@ msgid "Close Window"
 msgstr "Degea Fenester"
 
 #: src/shortcuts-dialog.blp:52
+#, fuzzy
 msgctxt "shortcut window"
-msgid "Quit Bazaar"
+msgid "Quit Warsi"
 msgstr "Kwytya Basar"
 
 #: src/update-worker.c:358

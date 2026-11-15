@@ -1,6 +1,6 @@
 desktop_file = i18n.merge_file(
-        input: 'io.github.kolunmi.Bazaar.desktop.in',
-       output: 'io.github.kolunmi.Bazaar.desktop',
+        input: 'id.blankonlinux.warsi.desktop.in',
+       output: 'id.blankonlinux.warsi.desktop',
          type: 'desktop',
        po_dir: '../po',
       install: true,
@@ -13,8 +13,8 @@ if desktop_utils.found()
 endif
 
 appstream_file = i18n.merge_file(
-        input: 'io.github.kolunmi.Bazaar.metainfo.xml.in',
-       output: 'io.github.kolunmi.Bazaar.metainfo.xml',
+        input: 'id.blankonlinux.warsi.metainfo.xml.in',
+       output: 'id.blankonlinux.warsi.metainfo.xml',
        po_dir: '../po',
       install: true,
   install_dir: get_option('datadir') / 'metainfo'
@@ -24,7 +24,7 @@ appstreamcli = find_program('appstreamcli', required: false, disabler: true)
 test('Validate appstream file', appstreamcli,
      args: ['validate', '--no-net', '--explain', appstream_file])
 
-install_data('io.github.kolunmi.Bazaar.gschema.xml',
+install_data('id.blankonlinux.warsi.gschema.xml',
   install_dir: get_option('datadir') / 'glib-2.0' / 'schemas'
 )
 
@@ -37,25 +37,25 @@ test('Validate schema file',
 service_conf = configuration_data()
 service_conf.set('bindir', get_option('prefix') / get_option('bindir'))
 configure_file(
-  input: 'io.github.kolunmi.Bazaar.service.in',
-  output: 'io.github.kolunmi.Bazaar.service',
+  input: 'id.blankonlinux.warsi.service.in',
+  output: 'id.blankonlinux.warsi.service',
   configuration: service_conf,
   install_dir: get_option('prefix') / 'lib' / 'systemd' / 'user'
 )
 
 service_conf = configuration_data()
 configure_file(
-  input: 'io.github.kolunmi.Bazaar.search-provider.ini.in',
-  output: 'io.github.kolunmi.Bazaar.search-provider.ini',
+  input: 'id.blankonlinux.warsi.search-provider.ini.in',
+  output: 'id.blankonlinux.warsi.search-provider.ini',
   configuration: service_conf,
   install_dir: get_option('datadir') / 'gnome-shell' / 'search-providers'
 )
 
-# DOWNSTREAM PATCH (APT system updates): start bazaar-daemon at login while
-# update notifications are enabled. Named bazaar.desktop like the per-user
+# DOWNSTREAM PATCH (APT system updates): start warsi-daemon at login while
+# update notifications are enabled. Named warsi.desktop like the per-user
 # autostart file upstream writes for automatic updates, which overrides it.
 install_data('bazaar-update-notifications.desktop',
-  rename: 'bazaar.desktop',
+  rename: 'warsi.desktop',
   install_dir: get_option('sysconfdir') / 'xdg' / 'autostart'
 )
 

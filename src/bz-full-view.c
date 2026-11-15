@@ -733,7 +733,7 @@ bz_full_view_class_init (BzFullViewClass *klass)
   g_type_ensure (BZ_TYPE_ADDON_TILE);
   g_type_ensure (BZ_TYPE_OTHER_SOURCES_LIST);
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/kolunmi/Bazaar/bz-full-view.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/id/blankonlinux/warsi/bz-full-view.ui");
   bz_widget_class_bind_all_util_callbacks (widget_class);
   bz_widget_class_bind_all_context_tile_callbacks (widget_class);
   gtk_widget_class_bind_template_child (widget_class, BzFullView, stack);

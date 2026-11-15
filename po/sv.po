@@ -18,34 +18,34 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 3.10\n"
 
-#. Translators: Please treat "Bazaar" as a brand name and avoid translating.
-#: data/io.github.kolunmi.Bazaar.desktop.in:3
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:8 src/bz-window.blp:55
+#. Translators: Please treat "Warsi" and "Bazaar" as brand names and avoid translating.
+#: data/id.blankonlinux.warsi.desktop.in:3
+#: data/id.blankonlinux.warsi.metainfo.xml.in:8 src/bz-window.blp:55
 #: src/bz-window.blp:193 src/bz-window.c:435 src/bz-window.c:436
-msgid "Bazaar"
-msgstr "Bazaar"
+msgid "Warsi"
+msgstr "Warsi"
 
-#: data/io.github.kolunmi.Bazaar.desktop.in:4
+#: data/id.blankonlinux.warsi.desktop.in:4
 msgid "App Store"
 msgstr "Programbutik"
 
-#: data/io.github.kolunmi.Bazaar.desktop.in:5
+#: data/id.blankonlinux.warsi.desktop.in:5
 msgid "Add, remove or update flatpak software on this computer"
 msgstr "Lägg till, ta bort eller uppdatera flatpak-programvara på denna dator"
 
-#: data/io.github.kolunmi.Bazaar.desktop.in:11
+#: data/id.blankonlinux.warsi.desktop.in:11
 msgid "System;Package;Manager;Discover;Flatpak;Software;App;Store;"
 msgstr "System;Paket;Hanterare;Upptäck;Flatpak;Programvara;App;Store;Butik;Affär;"
 
-#: data/io.github.kolunmi.Bazaar.desktop.in:18
+#: data/id.blankonlinux.warsi.desktop.in:18
 msgid "New Window"
 msgstr "Nytt fönster"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:9
+#: data/id.blankonlinux.warsi.metainfo.xml.in:9
 msgid "Discover and install apps"
 msgstr "Upptäck och installera program"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:11
+#: data/id.blankonlinux.warsi.metainfo.xml.in:11
 msgid ""
 "A fast and modern app store for Linux with a focus on discovering and "
 "installing Flatpak apps and add-ons, particularly from Flathub."
@@ -53,44 +53,44 @@ msgstr ""
 "En snabb och modern programbutik för Linux med fokus på upptäckt och "
 "installation av Flatpak-program och tillägg, främst från Flathub."
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:16
+#: data/id.blankonlinux.warsi.metainfo.xml.in:16
 msgid "Queue multiple installs and keep browsing"
 msgstr "Köa flera installationer och fortsätt bläddra"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:17
+#: data/id.blankonlinux.warsi.metainfo.xml.in:17
 msgid "Easily view app permissions"
 msgstr "Se lätt programrättigheter"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:18
+#: data/id.blankonlinux.warsi.metainfo.xml.in:18
 msgid "Sign in to Flathub to view and manage your favorites"
 msgstr "Logga in med Flathub för att visa och hantera favoriter"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:19
+#: data/id.blankonlinux.warsi.metainfo.xml.in:19
 msgid "Search apps directly from GNOME Shell"
 msgstr "Sök program direkt från GNOME Shell"
 
-#. Translators: Please treat "Bazaar" as a brand name and avoid translating.
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:34 src/bz-application.c:818
+#. Translators: Please treat "Warsi" and "Bazaar" as brand names and avoid translating.
+#: data/id.blankonlinux.warsi.metainfo.xml.in:34 src/bz-application.c:818
 msgid "The Bazaar Contributors"
 msgstr "Bidragsgivarna till Bazaar"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:59
+#: data/id.blankonlinux.warsi.metainfo.xml.in:59
 msgid "The home page displaying Flathub apps"
 msgstr "Startsidan som visar Flathub-program"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:63
+#: data/id.blankonlinux.warsi.metainfo.xml.in:63
 msgid "App page for Exhibit"
 msgstr "Programsida för Exhibit"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:67
+#: data/id.blankonlinux.warsi.metainfo.xml.in:67
 msgid "Library page"
 msgstr "Bibliotekssida"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:71
+#: data/id.blankonlinux.warsi.metainfo.xml.in:71
 msgid "Search page"
 msgstr "Söksida"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:75
+#: data/id.blankonlinux.warsi.metainfo.xml.in:75
 msgid "Category page"
 msgstr "Kategorisida"
 
@@ -774,17 +774,8 @@ msgid "Set Up Flathub?"
 msgstr "Konfigurera Flathub?"
 
 #: src/bz-application.c:1118
-msgid ""
-"Flathub is not set up on this system. You will not be able to browse and "
-"install applications in Bazaar if its unavailable.\n"
-"\n"
-"You can still use Bazaar to browse and remove already installed apps."
-msgstr ""
-"Flathub är inte konfigurerat på detta system. Du kommer inte kunna bläddra "
-"bland och installera program i Bazaar om det är otillgängligt.\n"
-"\n"
-"Du kan fortfarande använda Bazaar för att bläddra bland och ta bort redan "
-"installerade program."
+msgid "Flathub is not set up on this system. You will not be able to browse and install applications in Warsi if its unavailable.\n\nYou can still use Warsi to browse and remove already installed apps."
+msgstr "Flathub är inte konfigurerat på detta system. Du kommer inte kunna bläddra bland och installera program i Warsi om det är otillgängligt.\n\nDu kan fortfarande använda Warsi för att bläddra bland och ta bort redan installerade program."
 
 #: src/bz-application.c:1123
 msgid "Later"
@@ -910,16 +901,8 @@ msgid "Additional dependencies may take extra space"
 msgstr "Ytterligare beroenden kan ta extra utrymme"
 
 #: src/bz-bundle-install-dialog.blp:232
-msgid ""
-"Installing this app may require adding a new software source. Other apps from "
-"this source will show up in Bazaar.\n"
-"\n"
-"Only add this source if you're sure you trust it."
-msgstr ""
-"Att installera detta program kan kräva tillägg av en ny programvarukälla. Andra "
-"program från denna källa kommer visas i Bazaar.\n"
-"\n"
-"Lägg endast till denna källa om du är säker på att du litar på den."
+msgid "Installing this app may require adding a new software source. Other apps from this source will show up in Warsi.\n\nOnly add this source if you're sure you trust it."
+msgstr "Att installera detta program kan kräva tillägg av en ny programvarukälla. Andra program från denna källa kommer visas i Warsi.\n\nLägg endast till denna källa om du är säker på att du litar på den."
 
 #: src/bz-bundle-install-dialog.blp:414
 msgid "Successfully Installed!"
@@ -1039,7 +1022,7 @@ msgstr "Ägarskapet till program-ID:t %1$s har verifierats med %2$s."
 msgid "The ownership of the %s app ID has been verified."
 msgstr "Ägarskapet till program-ID:t %s har verifierats."
 
-#. Translators: Please treat "Bazaar" as a brand name and avoid translating.
+#. Translators: Please treat "Warsi" and "Bazaar" as brand names and avoid translating.
 #: src/bz-donations-dialog.blp:8
 msgid "Bazaar Release"
 msgstr "Bazaar-utgåva"
@@ -1052,7 +1035,7 @@ msgstr "Fullständiga kommentarer till utgåva"
 msgid "This release was made possible by users like you!"
 msgstr "Denna utgåva gjordes möjlig av användare som du!"
 
-#. Translators: Please treat "Bazaar" as a brand name and avoid translating.
+#. Translators: Please treat "Warsi" and "Bazaar" as brand names and avoid translating.
 #: src/bz-donations-dialog.blp:122
 msgid ""
 "I love making Bazaar, but I cannot do it alone. Help support further "
@@ -1061,7 +1044,7 @@ msgstr ""
 "Jag älskar att skapa Bazaar, men kan inte göra det själv. Stöd vidare "
 "utveckling genom att donera på Ko-Fi."
 
-#. Translators: Please treat "Bazaar" as a brand name and avoid translating.
+#. Translators: Please treat "Warsi" and "Bazaar" as brand names and avoid translating.
 #: src/bz-donations-dialog.blp:137
 msgid "Donate to Bazaar"
 msgstr "Donera till Bazaar"
@@ -2296,10 +2279,10 @@ msgstr "Femboy-pridefärger"
 msgid "Neutrois Pride Colors"
 msgstr "Neutrois-pridefärger"
 
-#. Translators: Please treat "Bazaar" as a brand name and avoid translating.
+#. Translators: Please treat "Warsi" and "Bazaar" as brand names and avoid translating.
 #: src/bz-preferences-dialog.c:287
-msgid "Bazaar needs to run in the background to check for app updates"
-msgstr "Bazaar behöver köras i bakgrunden för att söka programuppdateringar"
+msgid "Warsi needs to run in the background to check for app updates"
+msgstr "Warsi behöver köras i bakgrunden för att söka programuppdateringar"
 
 #: src/bz-releases-dialog.blp:5 src/bz-updates-card.vala:167
 msgid "Version History"
@@ -2977,10 +2960,10 @@ msgstr "Sök"
 msgid "Main Menu"
 msgstr "Huvudmeny"
 
-#. Translators: Please treat "Bazaar" as a brand name and avoid translating.
+#. Translators: Please treat "Warsi" and "Bazaar" as brand names and avoid translating.
 #: src/bz-window.blp:217
-msgid "You are running a new version of Bazaar!"
-msgstr "Du kör en ny version av Bazaar!"
+msgid "You are running a new version of Warsi!"
+msgstr "Du kör en ny version av Warsi!"
 
 #: src/bz-window.blp:218
 msgid "See What's New"
@@ -2995,7 +2978,7 @@ msgid "Network connection is metered — automatic refreshes disabled"
 msgstr ""
 "Nätverksanslutningen har datakvoter — automatiska uppdateringar är inaktiverade"
 
-#. Translators: Please treat "Bazaar" as a brand name and avoid translating.
+#. Translators: Please treat "Warsi" and "Bazaar" as brand names and avoid translating.
 #: src/bz-window.blp:273
 msgid "_Donate to Bazaar"
 msgstr "_Donera till Bazaar"
@@ -3020,25 +3003,25 @@ msgstr "_Inställningar"
 msgid "_Keyboard Shortcuts"
 msgstr "_Tangentbordsgenvägar"
 
-#. Translators: Please treat "Bazaar" as a brand name and avoid translating.
+#. Translators: Please treat "Warsi" and "Bazaar" as brand names and avoid translating.
 #: src/bz-window.blp:306
-msgid "_About Bazaar"
-msgstr "_Om Bazaar"
+msgid "_About Warsi"
+msgstr "_Om Warsi"
 
-#. Translators: Please treat "Bazaar" as a brand name and avoid translating.
+#. Translators: Please treat "Warsi" and "Bazaar" as brand names and avoid translating.
 #: src/bz-window.blp:313
-msgid "_Quit Bazaar"
-msgstr "A_vsluta Bazaar"
+msgid "_Quit Warsi"
+msgstr "A_vsluta Warsi"
 
 #: src/bz-window.blp:329
 msgid "Log Out"
 msgstr "Logga ut"
 
-#. Translators: Please treat "Bazaar" as a brand name and avoid translating. %s is the title of the current page.
+#. Translators: Please treat "Warsi" and "Bazaar" as brand names and avoid translating. %s is the title of the current page.
 #: src/bz-window.c:438
 #, c-format
-msgid "Bazaar — %s"
-msgstr "Bazaar — %s"
+msgid "Warsi — %s"
+msgstr "Warsi — %s"
 
 #: src/bz-window.c:718 src/bz-window.c:767
 msgid "Failed to launch application"
@@ -3048,10 +3031,10 @@ msgstr "Misslyckades med att starta program"
 msgid "Could not open link"
 msgstr "Kunde inte öppna länk"
 
-#. Translators: Please treat "Bazaar" as a brand name and avoid translating.
+#. Translators: Please treat "Warsi" and "Bazaar" as brand names and avoid translating.
 #: src/bz-window.c:1055
-msgid "You can't remove Bazaar from Bazaar!"
-msgstr "Du kör inte ta bort Bazaar från Bazaar!"
+msgid "You can't remove Warsi from Warsi!"
+msgstr "Du kör inte ta bort Warsi från Warsi!"
 
 #: src/bz-window.c:1439 src/bz-window.c:1473
 msgid "Can't do that right now!"
@@ -3526,8 +3509,8 @@ msgstr "Stäng fönster"
 
 #: src/shortcuts-dialog.blp:52
 msgctxt "shortcut window"
-msgid "Quit Bazaar"
-msgstr "Avsluta Bazaar"
+msgid "Quit Warsi"
+msgstr "Avsluta Warsi"
 
 #: src/transaction-notification.c:133
 #, c-format
@@ -3601,7 +3584,7 @@ msgstr "Inkluderar %s, %s och %s."
 #~ "\n"
 #~ "You can then remove this Flatpak version with\n"
 #~ "\n"
-#~ "<tt>flatpak uninstall io.github.kolunmi.Bazaar</tt>"
+#~ "<tt>flatpak uninstall id.blankonlinux.warsi</tt>"
 #~ msgstr ""
 #~ "Ubuntu 25.10 och nyare har ändrat standardsäkerhetsreglerna på ett sätt som "
 #~ "gör det <b>omöjligt att installera program</b> från Flatpak-versionen av "
@@ -3611,7 +3594,7 @@ msgstr "Inkluderar %s, %s och %s."
 #~ "\n"
 #~ "Du kan sedan ta bort denna Flatpak-version med\n"
 #~ "\n"
-#~ "<tt>flatpak uninstall io.github.kolunmi.Bazaar</tt>"
+#~ "<tt>flatpak uninstall id.blankonlinux.warsi</tt>"
 
 #~ msgid "Continue Anyway"
 #~ msgstr "Fortsätt ändå"

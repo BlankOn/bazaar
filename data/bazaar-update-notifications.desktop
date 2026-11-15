@@ -1,11 +1,11 @@
 # DOWNSTREAM PATCH (APT system updates): see ai-patches/PLAN.md
-# Installed as $sysconfdir/xdg/autostart/bazaar.desktop. Runs Bazaar's
+# Installed as $sysconfdir/xdg/autostart/warsi.desktop. Runs Warsi's
 # background service at login, which checks for app and system updates and
 # notifies about them, while the "update-notifications" setting is on.
 [Desktop Entry]
 Type=Application
-Name=Bazaar
-Exec=bazaar-daemon --no-window
+Name=Warsi
+Exec=warsi-daemon --no-window
 NoDisplay=true
 X-GNOME-Autostart-enabled=true
-X-GNOME-Autostart-Condition=GSettings io.github.kolunmi.Bazaar update-notifications
+X-GNOME-Autostart-Condition=GSettings id.blankonlinux.warsi update-notifications

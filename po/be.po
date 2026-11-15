@@ -18,28 +18,28 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Poedit 3.8\n"
 
-#: data/io.github.kolunmi.Bazaar.desktop.in:2 data/io.github.kolunmi.Bazaar.metainfo.xml.in:7 src/bz-window.blp:6
+#: data/id.blankonlinux.warsi.desktop.in:2 data/id.blankonlinux.warsi.metainfo.xml.in:7 src/bz-window.blp:6
 #: src/bz-window.blp:110
-msgid "Bazaar"
-msgstr "Bazaar"
+msgid "Warsi"
+msgstr "Warsi"
 
-#: data/io.github.kolunmi.Bazaar.desktop.in:3
+#: data/id.blankonlinux.warsi.desktop.in:3
 msgid "Add, remove or update flatpak software on this computer"
 msgstr "Дадавайце, выдаляйце або абнаўляйце праграмы ў фармаце flatpak на гэтым камп’ютары"
 
-#: data/io.github.kolunmi.Bazaar.desktop.in:9
+#: data/id.blankonlinux.warsi.desktop.in:9
 msgid "GTK;System;PackageManager;Discover;Flatpak;Software;Store;"
 msgstr "GTK;System;PackageManager;Discover;Flatpak;Software;Store;Сістэма;ПакетныМенеджар;Пакеты;Магазін;Крама;Флатпак;Праграмы;ПЗ;"
 
-#: data/io.github.kolunmi.Bazaar.desktop.in:15
+#: data/id.blankonlinux.warsi.desktop.in:15
 msgid "New Window"
 msgstr "Новае акно"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:8
+#: data/id.blankonlinux.warsi.metainfo.xml.in:8
 msgid "Discover and install applications"
 msgstr "Знаходзьце і ўсталёўвайце праграмы"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:10
+#: data/id.blankonlinux.warsi.metainfo.xml.in:10
 msgid ""
 "A new app store for Linux with a focus on discovering and installing applications and addons from Flatpak remotes, particularly "
 "Flathub."
@@ -47,7 +47,7 @@ msgstr ""
 "Новая крама праграм для Linux з фокусам на тым, каб адкрываць і ўсталёўваць праграмы і дадаткі з аддаленых сервераў Flatpak (у "
 "прыватнасці — Flathub)."
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:14
+#: data/id.blankonlinux.warsi.metainfo.xml.in:14
 msgid ""
 "It emphasizes supporting the developers who make the Linux desktop possible. Bazaar features a \"curated\" tab that can be "
 "configured by distributors to allow for a more localized experience."
@@ -55,27 +55,27 @@ msgstr ""
 "Яна робіць акцэнт на падтрымцы распрацоўшчыкаў, якія робяць магчымым Linux для настольных камп’ютараў. Bazaar вылучае ўкладку "
 "\"падабраныя\" праграмы, якую могуць канфігураваць пастаўшчыкі для больш цэласнага вопыту карыстання дыстрыбутывам."
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:29 src/bz-application.c:699
+#: data/id.blankonlinux.warsi.metainfo.xml.in:29 src/bz-application.c:699
 msgid "Adam Masciola"
 msgstr "Adam Masciola"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:54
+#: data/id.blankonlinux.warsi.metainfo.xml.in:54
 msgid "The home page displaying Flathub apps"
 msgstr "Галоўная старонка паказвае праграмы з Flathub"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:58
+#: data/id.blankonlinux.warsi.metainfo.xml.in:58
 msgid "Exhibit app page"
 msgstr "Дэманстрацыйная старонка праграмы"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:62
+#: data/id.blankonlinux.warsi.metainfo.xml.in:62
 msgid "Library page"
 msgstr "Старонка бібліятэкі"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:66
+#: data/id.blankonlinux.warsi.metainfo.xml.in:66
 msgid "Search page"
 msgstr "Старонка пошуку"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:70
+#: data/id.blankonlinux.warsi.metainfo.xml.in:70
 msgid "Category page"
 msgstr "Старонка катэгорыі"
 
@@ -491,12 +491,12 @@ msgid "_Keyboard Shortcuts"
 msgstr "_Спалучэнні клавіш"
 
 #: src/bz-all-apps-page.blp:51 src/bz-apps-page.blp:51 src/bz-user-data-page.blp:52 src/bz-window.blp:407
-msgid "_About Bazaar"
-msgstr "П_ра Bazaar"
+msgid "_About Warsi"
+msgstr "П_ра Warsi"
 
 #: src/bz-all-apps-page.blp:58 src/bz-apps-page.blp:58 src/bz-user-data-page.blp:59 src/bz-window.blp:414
-msgid "_Quit Bazaar"
-msgstr "_Выйсці з Bazaar"
+msgid "_Quit Warsi"
+msgstr "_Выйсці з Warsi"
 
 #: src/bz-app-permissions.c:160
 #, c-format
@@ -733,15 +733,8 @@ msgid "Set Up Flathub?"
 msgstr "Наладзіць Flathub?"
 
 #: src/bz-application.c:990
-msgid ""
-"Flathub is not set up on this system. You will not be able to browse and install applications in Bazaar if its unavailable.\n"
-"\n"
-"You can still use Bazaar to browse and remove already installed apps."
-msgstr ""
-"Flathub не наладжаны для гэтай сістэмы. Вы не зможаце праглядаць і ўсталёўваць праграм у Bazaar, калі гэты сервіс не будзе "
-"даступны.\n"
-"\n"
-"Вы ўсё яшчэ зможаце выкарыстоўваць Bazaar для прагляду і выдалення ўжо ўсталяваных праграм."
+msgid "Flathub is not set up on this system. You will not be able to browse and install applications in Warsi if its unavailable.\n\nYou can still use Warsi to browse and remove already installed apps."
+msgstr "Flathub не наладжаны для гэтай сістэмы. Вы не зможаце праглядаць і ўсталёўваць праграм у Warsi, калі гэты сервіс не будзе даступны.\n\nВы ўсё яшчэ зможаце выкарыстоўваць Warsi для прагляду і выдалення ўжо ўсталяваных праграм."
 
 #: src/bz-application.c:996
 msgid "Later"
@@ -2802,8 +2795,8 @@ msgid "Refresh completed!"
 msgstr "Абнаўленне скончана!"
 
 #: src/bz-window.blp:319
-msgid "You are running a new version of Bazaar!"
-msgstr "Вы запусцілі новую версію Bazaar!"
+msgid "You are running a new version of Warsi!"
+msgstr "Вы запусцілі новую версію Warsi!"
 
 #: src/bz-window.blp:320
 msgid "See What's New"
@@ -2822,8 +2815,8 @@ msgid "Failed to load add-ons"
 msgstr "Не ўдалося загрузіць дадаткі"
 
 #: src/bz-window.c:763
-msgid "You can't remove Bazaar from Bazaar!"
-msgstr "Вы не можаце выдаліць Bazaar, карыстаючыся Bazaar!"
+msgid "You can't remove Warsi from Warsi!"
+msgstr "Вы не можаце выдаліць Warsi, карыстаючыся Warsi!"
 
 #: src/bz-window.c:1055 src/bz-window.c:1089
 msgid "Can't do that right now!"
@@ -2871,8 +2864,8 @@ msgstr "Закрыць акно"
 
 #: src/shortcuts-dialog.blp:41
 msgctxt "shortcut window"
-msgid "Quit Bazaar"
-msgstr "Выйсці з Bazaar"
+msgid "Quit Warsi"
+msgstr "Выйсці з Warsi"
 
 #~ msgid "_Synchronize Remotes"
 #~ msgstr "Сін_хранізацыя з аддаленымі серверамі"

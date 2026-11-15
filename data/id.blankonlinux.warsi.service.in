@@ -4,5 +4,5 @@ PartOf=graphical-session.target
 
 [Service]
 Type=dbus
-BusName=io.github.kolunmi.Bazaar
-ExecStart=@bindir@/bazaar-daemon --no-window
+BusName=id.blankonlinux.warsi
+ExecStart=@bindir@/warsi-daemon --no-window

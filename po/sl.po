@@ -20,37 +20,38 @@ msgstr ""
 "X-Generator: Poedit 3.8\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
-#. Translators: Please treat "Bazaar" as a brand name and avoid translating.
-#: data/io.github.kolunmi.Bazaar.desktop.in:3
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:8 src/bz-window.blp:55
+#. Translators: Please treat "Warsi" and "Bazaar" as brand names and avoid translating.
+#: data/id.blankonlinux.warsi.desktop.in:3
+#: data/id.blankonlinux.warsi.metainfo.xml.in:8 src/bz-window.blp:55
 #: src/bz-window.blp:192 src/bz-window.c:435 src/bz-window.c:436
-msgid "Bazaar"
+#, fuzzy
+msgid "Warsi"
 msgstr "Bazar"
 
-#: data/io.github.kolunmi.Bazaar.desktop.in:4
+#: data/id.blankonlinux.warsi.desktop.in:4
 msgid "App Store"
 msgstr "Trgovina programov"
 
-#: data/io.github.kolunmi.Bazaar.desktop.in:5
+#: data/id.blankonlinux.warsi.desktop.in:5
 msgid "Add, remove or update flatpak software on this computer"
 msgstr ""
 "Dodajajte, odstranjujte in posodabljajte programsko opremo flatpak na tem "
 "računalniku"
 
-#: data/io.github.kolunmi.Bazaar.desktop.in:11
+#: data/id.blankonlinux.warsi.desktop.in:11
 msgid "System;Package;Manager;Discover;Flatpak;Software;App;Store;"
 msgstr ""
 "sistem;paket;upravitelj;odkrij;Flatpak;pogramska oprema;aplikacija;trgovina;"
 
-#: data/io.github.kolunmi.Bazaar.desktop.in:18
+#: data/id.blankonlinux.warsi.desktop.in:18
 msgid "New Window"
 msgstr "Novo okno"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:9
+#: data/id.blankonlinux.warsi.metainfo.xml.in:9
 msgid "Discover and install apps"
 msgstr "Odkrijte in namestite programe"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:11
+#: data/id.blankonlinux.warsi.metainfo.xml.in:11
 msgid ""
 "A fast and modern app store for Linux with a focus on discovering and "
 "installing Flatpak apps and add-ons, particularly from Flathub."
@@ -58,44 +59,44 @@ msgstr ""
 "Hitra in sodobna trgovina s programi za Linux, namenjena predvsem odkrivanju "
 "in namestitvi programov ter dodatkov v obliki Flatpak, zlasti iz Flathuba."
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:16
+#: data/id.blankonlinux.warsi.metainfo.xml.in:16
 msgid "Queue multiple installs and keep browsing"
 msgstr "Postavite več namestitev v vrsto in nadaljujte z brskanjem"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:17
+#: data/id.blankonlinux.warsi.metainfo.xml.in:17
 msgid "Easily view app permissions"
 msgstr "Enostavno preglejte pravice programa"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:18
+#: data/id.blankonlinux.warsi.metainfo.xml.in:18
 msgid "Sign in to Flathub to view and manage your favorites"
 msgstr "Vpišite se v Flathub, da vidite in upravljate svoje priljubljene"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:19
+#: data/id.blankonlinux.warsi.metainfo.xml.in:19
 msgid "Search apps directly from GNOME Shell"
 msgstr "Programe iščite neposredno iz lupine GNOME"
 
-#. Translators: Please treat "Bazaar" as a brand name and avoid translating.
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:34 src/bz-application.c:892
+#. Translators: Please treat "Warsi" and "Bazaar" as brand names and avoid translating.
+#: data/id.blankonlinux.warsi.metainfo.xml.in:34 src/bz-application.c:892
 msgid "The Bazaar Contributors"
 msgstr "Avtorji prispevkov Bazarja"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:59
+#: data/id.blankonlinux.warsi.metainfo.xml.in:59
 msgid "The home page displaying Flathub apps"
 msgstr "Domača stran, ki prikaže programe Flathub"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:63
+#: data/id.blankonlinux.warsi.metainfo.xml.in:63
 msgid "App page for Exhibit"
 msgstr "Stran predstavitve programa"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:67
+#: data/id.blankonlinux.warsi.metainfo.xml.in:67
 msgid "Library page"
 msgstr "Stran knjižnic"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:71
+#: data/id.blankonlinux.warsi.metainfo.xml.in:71
 msgid "Search page"
 msgstr "Iskalna stran"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:75
+#: data/id.blankonlinux.warsi.metainfo.xml.in:75
 msgid "Category page"
 msgstr "Stran kategorij"
 
@@ -778,11 +779,8 @@ msgid "Set Up Flathub?"
 msgstr "Ali želite nastaviti flathub?"
 
 #: src/bz-application.c:1193
-msgid ""
-"Flathub is not set up on this system. You will not be able to browse and "
-"install applications in Bazaar if its unavailable.\n"
-"\n"
-"You can still use Bazaar to browse and remove already installed apps."
+#, fuzzy
+msgid "Flathub is not set up on this system. You will not be able to browse and install applications in Warsi if its unavailable.\n\nYou can still use Warsi to browse and remove already installed apps."
 msgstr ""
 "Sistem Flathub ni nastavljen na tem sistemu. V Bazarju ne boste mogli "
 "brskati po programih in jih nameščati, če ni na voljo.\n"
@@ -925,11 +923,8 @@ msgid "Additional dependencies may take extra space"
 msgstr "Dodatne odvisnosti lahko zavzamejo dodaten prostor"
 
 #: src/bz-bundle-install-dialog.blp:232
-msgid ""
-"Installing this app may require adding a new software source. Other apps "
-"from this source will show up in Bazaar.\n"
-"\n"
-"Only add this source if you're sure you trust it."
+#, fuzzy
+msgid "Installing this app may require adding a new software source. Other apps from this source will show up in Warsi.\n\nOnly add this source if you're sure you trust it."
 msgstr ""
 "Za namestitev tega programa bo morda treba dodati nov vir programske opreme. "
 "Drugi programi iz tega vira se bodo prikazali v trgovini Bazar.\n"
@@ -1070,7 +1065,7 @@ msgstr "Lastništvo ID programa %1$s je bilo preverjeno s pomočjo %2$s."
 msgid "The ownership of the %s app ID has been verified."
 msgstr "Lastništvo programa %s je bilo preverjeno."
 
-#. Translators: Please treat "Bazaar" as a brand name and avoid translating.
+#. Translators: Please treat "Warsi" and "Bazaar" as brand names and avoid translating.
 #: src/bz-donations-dialog.blp:8
 msgid "Bazaar Release"
 msgstr "Bazar - izdaja"
@@ -1083,7 +1078,7 @@ msgstr "Celotne opombe ob izdaji"
 msgid "This release was made possible by users like you!"
 msgstr "To izdajo so omogočili uporabniki, kot ste vi!"
 
-#. Translators: Please treat "Bazaar" as a brand name and avoid translating.
+#. Translators: Please treat "Warsi" and "Bazaar" as brand names and avoid translating.
 #: src/bz-donations-dialog.blp:122
 msgid ""
 "I love making Bazaar, but I cannot do it alone. Help support further "
@@ -1092,7 +1087,7 @@ msgstr ""
 "Zelo rad ustvarjam Bazaar, a sam tega ne zmorem. Pomagajte podpreti "
 "nadaljnji razvoj s prispevkom na Ko-Fi."
 
-#. Translators: Please treat "Bazaar" as a brand name and avoid translating.
+#. Translators: Please treat "Warsi" and "Bazaar" as brand names and avoid translating.
 #: src/bz-donations-dialog.blp:137
 msgid "Donate to Bazaar"
 msgstr "Donirajte Bazarju"
@@ -2348,9 +2343,10 @@ msgstr "Barve ponosa - femboy"
 msgid "Neutrois Pride Colors"
 msgstr "Barve ponosa - neutrois"
 
-#. Translators: Please treat "Bazaar" as a brand name and avoid translating.
+#. Translators: Please treat "Warsi" and "Bazaar" as brand names and avoid translating.
 #: src/bz-preferences-dialog.c:287
-msgid "Bazaar needs to run in the background to check for app updates"
+#, fuzzy
+msgid "Warsi needs to run in the background to check for app updates"
 msgstr ""
 "Bazar se mora izvajati v ozadju, da preverja dosegljivost posodobitev "
 "programov"
@@ -3144,9 +3140,10 @@ msgstr "Poišči"
 msgid "Main Menu"
 msgstr "Glavni meni"
 
-#. Translators: Please treat "Bazaar" as a brand name and avoid translating.
+#. Translators: Please treat "Warsi" and "Bazaar" as brand names and avoid translating.
 #: src/bz-window.blp:216
-msgid "You are running a new version of Bazaar!"
+#, fuzzy
+msgid "You are running a new version of Warsi!"
 msgstr "Poganjate novo različico Bazarja!"
 
 #: src/bz-window.blp:217
@@ -3164,7 +3161,7 @@ msgstr ""
 msgid "Network connection is metered — automatic refreshes disabled"
 msgstr "Omrežna povezava je plačljiva - samodejne osvežitve so onemogočene"
 
-#. Translators: Please treat "Bazaar" as a brand name and avoid translating.
+#. Translators: Please treat "Warsi" and "Bazaar" as brand names and avoid translating.
 #: src/bz-window.blp:272
 msgid "_Donate to Bazaar"
 msgstr "_Doniraj Bazarju"
@@ -3193,24 +3190,26 @@ msgstr "_Nastavitve"
 msgid "_Keyboard Shortcuts"
 msgstr "_Tipkovne bližnjice"
 
-#. Translators: Please treat "Bazaar" as a brand name and avoid translating.
+#. Translators: Please treat "Warsi" and "Bazaar" as brand names and avoid translating.
 #: src/bz-window.blp:311
-msgid "_About Bazaar"
+#, fuzzy
+msgid "_About Warsi"
 msgstr "_O programu Bazar"
 
-#. Translators: Please treat "Bazaar" as a brand name and avoid translating.
+#. Translators: Please treat "Warsi" and "Bazaar" as brand names and avoid translating.
 #: src/bz-window.blp:318
-msgid "_Quit Bazaar"
+#, fuzzy
+msgid "_Quit Warsi"
 msgstr "_Končaj Bazar"
 
 #: src/bz-window.blp:334
 msgid "Log Out"
 msgstr "Odjavi"
 
-#. Translators: Please treat "Bazaar" as a brand name and avoid translating. %s is the title of the current page.
+#. Translators: Please treat "Warsi" and "Bazaar" as brand names and avoid translating. %s is the title of the current page.
 #: src/bz-window.c:438
-#, c-format
-msgid "Bazaar — %s"
+#, c-format, fuzzy
+msgid "Warsi — %s"
 msgstr "Bazar — %s"
 
 #: src/bz-window.c:726 src/bz-window.c:775
@@ -3221,9 +3220,10 @@ msgstr "Zagon programa ni uspel"
 msgid "Could not open link"
 msgstr "Ni mogoče odpreti povezave"
 
-#. Translators: Please treat "Bazaar" as a brand name and avoid translating.
+#. Translators: Please treat "Warsi" and "Bazaar" as brand names and avoid translating.
 #: src/bz-window.c:1074
-msgid "You can't remove Bazaar from Bazaar!"
+#, fuzzy
+msgid "You can't remove Warsi from Warsi!"
 msgstr "Ne morete odstraniti Bazarja v Bazarju!"
 
 #: src/bz-window.c:1463 src/bz-window.c:1497
@@ -3707,8 +3707,9 @@ msgid "Close Window"
 msgstr "Zapre okno"
 
 #: src/shortcuts-dialog.blp:52
+#, fuzzy
 msgctxt "shortcut window"
-msgid "Quit Bazaar"
+msgid "Quit Warsi"
 msgstr "Konča Bazar"
 
 #: src/transaction-notification.c:133

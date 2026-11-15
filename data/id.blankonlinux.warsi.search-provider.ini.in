@@ -1,0 +1,5 @@
+[Shell Search Provider]
+DesktopId=id.blankonlinux.warsi.desktop
+BusName=id.blankonlinux.warsi.SearchProvider
+ObjectPath=/id/blankonlinux/warsi/SearchProvider
+Version=2

@@ -66,7 +66,7 @@ public class Bz.RemoteRow : Adw.ActionRow {
     }
 }
 
-[GtkTemplate (ui = "/io/github/kolunmi/Bazaar/bz-remote-app-tile.ui")]
+[GtkTemplate (ui = "/id/blankonlinux/warsi/bz-remote-app-tile.ui")]
 public class Bz.RemoteAppTile : Gtk.Box {
     public Bz.EntryGroup group { get; construct; }
 
@@ -81,7 +81,7 @@ public class Bz.RemoteAppTile : Gtk.Box {
     }
 }
 
-[GtkTemplate (ui = "/io/github/kolunmi/Bazaar/bz-remotes-dialog.ui")]
+[GtkTemplate (ui = "/id/blankonlinux/warsi/bz-remotes-dialog.ui")]
 public class Bz.RemotesDialog : Bz.Dialog {
     private const int LIST_MIN_HEIGHT = 300;
     private const int LIST_MAX_HEIGHT = 600;

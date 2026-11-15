@@ -18,35 +18,35 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 3.10\n"
 
-#. Translators: Please treat "Bazaar" as a brand name and avoid translating.
-#: data/io.github.kolunmi.Bazaar.desktop.in:3 data/io.github.kolunmi.Bazaar.metainfo.xml.in:8
+#. Translators: Please treat "Warsi" and "Bazaar" as brand names and avoid translating.
+#: data/id.blankonlinux.warsi.desktop.in:3 data/id.blankonlinux.warsi.metainfo.xml.in:8
 #: src/bz-window.blp:55 src/bz-window.blp:192 src/bz-window.c:435 src/bz-window.c:436
-msgid "Bazaar"
-msgstr "Bazaar"
+msgid "Warsi"
+msgstr "Warsi"
 
-#: data/io.github.kolunmi.Bazaar.desktop.in:4
+#: data/id.blankonlinux.warsi.desktop.in:4
 msgid "App Store"
 msgstr "Қолданбалар дүкені"
 
-#: data/io.github.kolunmi.Bazaar.desktop.in:5
+#: data/id.blankonlinux.warsi.desktop.in:5
 msgid "Add, remove or update flatpak software on this computer"
 msgstr "Бұл компьютерде flatpak бағдарламалық қамтамасын қосу, өшіру немесе жаңарту"
 
-#: data/io.github.kolunmi.Bazaar.desktop.in:11
+#: data/id.blankonlinux.warsi.desktop.in:11
 msgid "System;Package;Manager;Discover;Flatpak;Software;App;Store;"
 msgstr ""
 "System;Package;Manager;Discover;Flatpak;Software;App;Store;Жүйе;Десте;Басқарушы;Бағдарламалық "
 "қамтама;Қолданба;Дүкен;"
 
-#: data/io.github.kolunmi.Bazaar.desktop.in:18
+#: data/id.blankonlinux.warsi.desktop.in:18
 msgid "New Window"
 msgstr "Жаңа терезе"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:9
+#: data/id.blankonlinux.warsi.metainfo.xml.in:9
 msgid "Discover and install apps"
 msgstr "Қолданбаларды шолу және орнату"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:11
+#: data/id.blankonlinux.warsi.metainfo.xml.in:11
 msgid ""
 "A fast and modern app store for Linux with a focus on discovering and installing Flatpak apps and add-"
 "ons, particularly from Flathub."
@@ -54,44 +54,44 @@ msgstr ""
 "Flatpak қолданбалары мен қосымшаларын, әсіресе Flathub-тан табуға және орнатуға бағытталған Linux үшін "
 "жылдам әрі заманауи қолданбалар дүкені."
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:16
+#: data/id.blankonlinux.warsi.metainfo.xml.in:16
 msgid "Queue multiple installs and keep browsing"
 msgstr "Бірнеше орнатуды кезекке қойып, шолуды жалғастырыңыз"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:17
+#: data/id.blankonlinux.warsi.metainfo.xml.in:17
 msgid "Easily view app permissions"
 msgstr "Қолданба рұқсаттарын оңай көру"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:18
+#: data/id.blankonlinux.warsi.metainfo.xml.in:18
 msgid "Sign in to Flathub to view and manage your favorites"
 msgstr "Таңдаулыларыңызды көру және басқару үшін Flathub-қа кіріңіз"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:19
+#: data/id.blankonlinux.warsi.metainfo.xml.in:19
 msgid "Search apps directly from GNOME Shell"
 msgstr "Қолданбаларды тікелей GNOME Shell-ден іздеу"
 
-#. Translators: Please treat "Bazaar" as a brand name and avoid translating.
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:34 src/bz-application.c:818
+#. Translators: Please treat "Warsi" and "Bazaar" as brand names and avoid translating.
+#: data/id.blankonlinux.warsi.metainfo.xml.in:34 src/bz-application.c:818
 msgid "The Bazaar Contributors"
 msgstr "Bazaar үлес қосушылары"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:59
+#: data/id.blankonlinux.warsi.metainfo.xml.in:59
 msgid "The home page displaying Flathub apps"
 msgstr "Flathub қолданбаларын көрсететін басты бет"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:63
+#: data/id.blankonlinux.warsi.metainfo.xml.in:63
 msgid "App page for Exhibit"
 msgstr "Exhibit үшін қолданба беті"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:67
+#: data/id.blankonlinux.warsi.metainfo.xml.in:67
 msgid "Library page"
 msgstr "Кітапхана беті"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:71
+#: data/id.blankonlinux.warsi.metainfo.xml.in:71
 msgid "Search page"
 msgstr "Іздеу беті"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:75
+#: data/id.blankonlinux.warsi.metainfo.xml.in:75
 msgid "Category page"
 msgstr "Санат беті"
 
@@ -786,16 +786,8 @@ msgid "Set Up Flathub?"
 msgstr "Flathub баптау керек пе?"
 
 #: src/bz-application.c:1118
-msgid ""
-"Flathub is not set up on this system. You will not be able to browse and install applications in Bazaar "
-"if its unavailable.\n"
-"\n"
-"You can still use Bazaar to browse and remove already installed apps."
-msgstr ""
-"Flathub бұл жүйеде бапталмаған. Егер ол қолжетімсіз болса, Bazaar ішінде қолданбаларды шолу және орнату "
-"мүмкін болмайды.\n"
-"\n"
-"Сіз әлі де әлдеқашан орнатылған қолданбаларды шолу және өшіру үшін Bazaar қолданбасын пайдалана аласыз."
+msgid "Flathub is not set up on this system. You will not be able to browse and install applications in Warsi if its unavailable.\n\nYou can still use Warsi to browse and remove already installed apps."
+msgstr "Flathub бұл жүйеде бапталмаған. Егер ол қолжетімсіз болса, Warsi ішінде қолданбаларды шолу және орнату мүмкін болмайды.\n\nСіз әлі де әлдеқашан орнатылған қолданбаларды шолу және өшіру үшін Warsi қолданбасын пайдалана аласыз."
 
 #: src/bz-application.c:1123
 msgid "Later"
@@ -914,16 +906,8 @@ msgid "Additional dependencies may take extra space"
 msgstr "Қосымша тәуелділіктер қосымша орын алуы мүмкін"
 
 #: src/bz-bundle-install-dialog.blp:232
-msgid ""
-"Installing this app may require adding a new software source. Other apps from this source will show up in "
-"Bazaar.\n"
-"\n"
-"Only add this source if you're sure you trust it."
-msgstr ""
-"Бұл қолданбаны орнату жаңа бағдарламалық қамтама дереккөзін қосуды талап етуі мүмкін. Осы дереккөзден "
-"басқа қолданбалар Bazaar ішінде көрсетіледі.\n"
-"\n"
-"Бұл дереккөзді оған сенімді болсаңыз ғана қосыңыз."
+msgid "Installing this app may require adding a new software source. Other apps from this source will show up in Warsi.\n\nOnly add this source if you're sure you trust it."
+msgstr "Бұл қолданбаны орнату жаңа бағдарламалық қамтама дереккөзін қосуды талап етуі мүмкін. Осы дереккөзден басқа қолданбалар Warsi ішінде көрсетіледі.\n\nБұл дереккөзді оған сенімді болсаңыз ғана қосыңыз."
 
 #: src/bz-bundle-install-dialog.blp:414
 msgid "Successfully Installed!"
@@ -1029,7 +1013,7 @@ msgstr "%1$s қолданба идентификаторының иелігі %2
 msgid "The ownership of the %s app ID has been verified."
 msgstr "%s қолданба идентификаторының иелігі расталды."
 
-#. Translators: Please treat "Bazaar" as a brand name and avoid translating.
+#. Translators: Please treat "Warsi" and "Bazaar" as brand names and avoid translating.
 #: src/bz-donations-dialog.blp:8
 msgid "Bazaar Release"
 msgstr "Bazaar шығарылымы"
@@ -1042,7 +1026,7 @@ msgstr "Шығарылым туралы толық ақпарат"
 msgid "This release was made possible by users like you!"
 msgstr "Бұл шығарылым сіз сияқты пайдаланушылардың арқасында мүмкін болды!"
 
-#. Translators: Please treat "Bazaar" as a brand name and avoid translating.
+#. Translators: Please treat "Warsi" and "Bazaar" as brand names and avoid translating.
 #: src/bz-donations-dialog.blp:122
 msgid ""
 "I love making Bazaar, but I cannot do it alone. Help support further development by donating on Ko-Fi."
@@ -1050,7 +1034,7 @@ msgstr ""
 "Мен Bazaar жасағанды жақсы көремін, бірақ оны жалғыз істей алмаймын. Ko-Fi арқылы демеушілік көрсетіп, "
 "одан әрі әзірлеуге көмектесіңіз."
 
-#. Translators: Please treat "Bazaar" as a brand name and avoid translating.
+#. Translators: Please treat "Warsi" and "Bazaar" as brand names and avoid translating.
 #: src/bz-donations-dialog.blp:137
 msgid "Donate to Bazaar"
 msgstr "Bazaar-ға демеушілік ету"
@@ -2255,10 +2239,10 @@ msgstr "Фембой прайд түстері"
 msgid "Neutrois Pride Colors"
 msgstr "Нейтроис прайд түстері"
 
-#. Translators: Please treat "Bazaar" as a brand name and avoid translating.
+#. Translators: Please treat "Warsi" and "Bazaar" as brand names and avoid translating.
 #: src/bz-preferences-dialog.c:287
-msgid "Bazaar needs to run in the background to check for app updates"
-msgstr "Қолданба жаңартуларын тексеру үшін Bazaar фонда орындалуы керек"
+msgid "Warsi needs to run in the background to check for app updates"
+msgstr "Қолданба жаңартуларын тексеру үшін Warsi фонда орындалуы керек"
 
 #: src/bz-releases-dialog.blp:5 src/bz-updates-card.vala:167
 msgid "Version History"
@@ -2918,10 +2902,10 @@ msgstr "Іздеу"
 msgid "Main Menu"
 msgstr "Бас мәзір"
 
-#. Translators: Please treat "Bazaar" as a brand name and avoid translating.
+#. Translators: Please treat "Warsi" and "Bazaar" as brand names and avoid translating.
 #: src/bz-window.blp:216
-msgid "You are running a new version of Bazaar!"
-msgstr "Сіз Bazaar-дың жаңа нұсқасын іске қостыңыз!"
+msgid "You are running a new version of Warsi!"
+msgstr "Сіз Warsi-дың жаңа нұсқасын іске қостыңыз!"
 
 #: src/bz-window.blp:217
 msgid "See What's New"
@@ -2935,7 +2919,7 @@ msgstr "Желі қосылымы бар, бірақ сіз Flathub-тың кэ�
 msgid "Network connection is metered — automatic refreshes disabled"
 msgstr "Желі қосылымы трафикті есептейтін ретінде көрсетілген — автожаңартулар сөндірілген"
 
-#. Translators: Please treat "Bazaar" as a brand name and avoid translating.
+#. Translators: Please treat "Warsi" and "Bazaar" as brand names and avoid translating.
 #: src/bz-window.blp:272
 msgid "_Donate to Bazaar"
 msgstr "Bazaar-ға _демеушілік ету"
@@ -2960,26 +2944,26 @@ msgstr "_Баптаулар"
 msgid "_Keyboard Shortcuts"
 msgstr "_Пернетақта жарлықтары"
 
-#. Translators: Please treat "Bazaar" as a brand name and avoid translating.
+#. Translators: Please treat "Warsi" and "Bazaar" as brand names and avoid translating.
 #: src/bz-window.blp:305
-msgid "_About Bazaar"
-msgstr "Bazaar т_уралы"
+msgid "_About Warsi"
+msgstr "Warsi т_уралы"
 
-#. Translators: Please treat "Bazaar" as a brand name and avoid translating.
+#. Translators: Please treat "Warsi" and "Bazaar" as brand names and avoid translating.
 #: src/bz-window.blp:312
-msgid "_Quit Bazaar"
-msgstr "Bazaar-дан ш_ығу"
+msgid "_Quit Warsi"
+msgstr "Warsi-дан ш_ығу"
 
 #: src/bz-window.blp:328
 msgid "Log Out"
 msgstr "Шығу"
 
-#. Translators: Please treat "Bazaar" as a brand name and avoid translating.
+#. Translators: Please treat "Warsi" and "Bazaar" as brand names and avoid translating.
 #. %s is the title of the current page.
 #: src/bz-window.c:438
 #, c-format
-msgid "Bazaar — %s"
-msgstr "Bazaar — %s"
+msgid "Warsi — %s"
+msgstr "Warsi — %s"
 
 #: src/bz-window.c:718 src/bz-window.c:767
 msgid "Failed to launch application"
@@ -2989,10 +2973,10 @@ msgstr "Қолданбаны іске қосу сәтсіз аяқталды"
 msgid "Could not open link"
 msgstr "Сілтемені ашу мүмкін болмады"
 
-#. Translators: Please treat "Bazaar" as a brand name and avoid translating.
+#. Translators: Please treat "Warsi" and "Bazaar" as brand names and avoid translating.
 #: src/bz-window.c:1055
-msgid "You can't remove Bazaar from Bazaar!"
-msgstr "Сіз Bazaar-ды Bazaar ішінен өшіре алмайсыз!"
+msgid "You can't remove Warsi from Warsi!"
+msgstr "Сіз Warsi-ды Warsi ішінен өшіре алмайсыз!"
 
 #: src/bz-window.c:1439 src/bz-window.c:1473
 msgid "Can't do that right now!"
@@ -3460,8 +3444,8 @@ msgstr "Терезені жабу"
 
 #: src/shortcuts-dialog.blp:52
 msgctxt "shortcut window"
-msgid "Quit Bazaar"
-msgstr "Bazaar-дан шығу"
+msgid "Quit Warsi"
+msgstr "Warsi-дан шығу"
 
 #: src/transaction-notification.c:133
 #, c-format
@@ -3513,7 +3497,7 @@ msgstr "%s, %s және %s қамтиды."
 #~ "\n"
 #~ "You can then remove this Flatpak version with\n"
 #~ "\n"
-#~ "<tt>flatpak uninstall io.github.kolunmi.Bazaar</tt>"
+#~ "<tt>flatpak uninstall id.blankonlinux.warsi</tt>"
 #~ msgstr ""
 #~ "Ubuntu 25.10 және одан жаңа нұсқалары үнсіз келісім бойынша қауіпсіздік ережелерін Bazaar-дың Flatpak "
 #~ "нұсқасынан <b>қолданбаларды орнату мүмкін болмайтындай</b> етіп өзгертті. Әзірше оның орнына apt "
@@ -3523,7 +3507,7 @@ msgstr "%s, %s және %s қамтиды."
 #~ "\n"
 #~ "Содан кейін бұл Flatpak нұсқасын келесі командамен өшіре аласыз\n"
 #~ "\n"
-#~ "<tt>flatpak uninstall io.github.kolunmi.Bazaar</tt>"
+#~ "<tt>flatpak uninstall id.blankonlinux.warsi</tt>"
 
 #~ msgid "Continue Anyway"
 #~ msgstr "Сонда да жалғастыру"

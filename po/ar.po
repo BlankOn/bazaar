@@ -19,29 +19,30 @@ msgstr ""
 "&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
 "X-Generator: Poedit 3.8\n"
 
-#: data/io.github.kolunmi.Bazaar.desktop.in:2
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:7 src/bz-window.blp:6
+#: data/id.blankonlinux.warsi.desktop.in:2
+#: data/id.blankonlinux.warsi.metainfo.xml.in:7 src/bz-window.blp:6
 #: src/bz-window.blp:111
-msgid "Bazaar"
+#, fuzzy
+msgid "Warsi"
 msgstr "بازار"
 
-#: data/io.github.kolunmi.Bazaar.desktop.in:3
+#: data/id.blankonlinux.warsi.desktop.in:3
 msgid "Add, remove or update flatpak software on this computer"
 msgstr "أضِف، أو أزل، أو حدث برمجيات فلاتباك على هذا الحاسوب"
 
-#: data/io.github.kolunmi.Bazaar.desktop.in:9
+#: data/id.blankonlinux.warsi.desktop.in:9
 msgid "GTK;System;PackageManager;Discover;Flatpak;Software;Store;"
 msgstr "GTK؛ النظام؛ مدير الحزم؛ اكتشاف؛ فلات باك؛ البرامج؛ المتجر؛"
 
-#: data/io.github.kolunmi.Bazaar.desktop.in:15
+#: data/id.blankonlinux.warsi.desktop.in:15
 msgid "New Window"
 msgstr "نافذة جديدة"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:8
+#: data/id.blankonlinux.warsi.metainfo.xml.in:8
 msgid "Discover and install applications"
 msgstr "استكشف ونصِّب التطبيقات"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:10
+#: data/id.blankonlinux.warsi.metainfo.xml.in:10
 msgid ""
 "A new app store for Linux with a focus on discovering and installing "
 "applications and addons from Flatpak remotes, particularly Flathub."
@@ -49,7 +50,7 @@ msgstr ""
 "متجر تطبيقات جديد للينوكس يركز على استكشاف وتنصيب التطبيقات والإضافات من "
 "فلاتباك، وبالأخص مستودع فلاتهَب."
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:14
+#: data/id.blankonlinux.warsi.metainfo.xml.in:14
 msgid ""
 "It emphasizes supporting the developers who make the Linux desktop possible. "
 "Bazaar features a \"curated\" tab that can be configured by distributors to "
@@ -58,27 +59,27 @@ msgstr ""
 "يُشدِّد «بازار» على دعم المطورين الواقفين وراء إتاحة سطح مكتب لينكس، ويضم لسانًا "
 "للمحتوى المنتقى يمكن للموزِّعين إعداده لتوفير تجربة استخدام أكثر مواءمة."
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:29 src/bz-application.c:703
+#: data/id.blankonlinux.warsi.metainfo.xml.in:29 src/bz-application.c:703
 msgid "Adam Masciola"
 msgstr "Adam Masciola"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:54
+#: data/id.blankonlinux.warsi.metainfo.xml.in:54
 msgid "The home page displaying Flathub apps"
 msgstr "الصفحة الرئيسية وهي تعرض تطبيقات فلاتهَب"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:58
+#: data/id.blankonlinux.warsi.metainfo.xml.in:58
 msgid "Exhibit app page"
 msgstr "صفحة معرض التطبيق"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:62
+#: data/id.blankonlinux.warsi.metainfo.xml.in:62
 msgid "Library page"
 msgstr "صفحة المكتبة"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:66
+#: data/id.blankonlinux.warsi.metainfo.xml.in:66
 msgid "Search page"
 msgstr "صفحة البحث"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:70
+#: data/id.blankonlinux.warsi.metainfo.xml.in:70
 msgid "Category page"
 msgstr "صفحة التصنيفات"
 
@@ -508,12 +509,14 @@ msgstr "ا_ختصارات لوحة المفاتيح"
 
 #: src/bz-all-apps-page.blp:51 src/bz-apps-page.blp:51
 #: src/bz-user-data-page.blp:52 src/bz-window.blp:417
-msgid "_About Bazaar"
+#, fuzzy
+msgid "_About Warsi"
 msgstr "_عَنْ بازار"
 
 #: src/bz-all-apps-page.blp:58 src/bz-apps-page.blp:58
 #: src/bz-user-data-page.blp:59 src/bz-window.blp:424
-msgid "_Quit Bazaar"
+#, fuzzy
+msgid "_Quit Warsi"
 msgstr "_أخرج من بازار"
 
 #: src/bz-app-permissions.c:160
@@ -719,11 +722,8 @@ msgid "Set Up Flathub"
 msgstr "نصِّب فلاتهب"
 
 #: src/bz-application.c:984
-msgid ""
-"Flathub is not set up on this system. You will not be able to browse and "
-"install applications in Bazaar if its unavailable.\n"
-"\n"
-"You can still use Bazaar to browse and remove already installed apps."
+#, fuzzy
+msgid "Flathub is not set up on this system. You will not be able to browse and install applications in Warsi if its unavailable.\n\nYou can still use Warsi to browse and remove already installed apps."
 msgstr ""
 "فلاتهب لم يتم تنصيبه على النظام. لن تستطيع تصفح و تنصيب تطبيقات بازار اذا لم "
 "توجد.\n"
@@ -2677,7 +2677,8 @@ msgid "No background tasks!"
 msgstr "لا توجد مهمات في الخلفية!"
 
 #: src/bz-window.blp:325
-msgid "You are running a new version of Bazaar!"
+#, fuzzy
+msgid "You are running a new version of Warsi!"
 msgstr "انت تشغل نسخة حديثة من بازار!"
 
 #: src/bz-window.blp:326
@@ -2694,7 +2695,8 @@ msgid "Log Out"
 msgstr "تسجيل الخروج"
 
 #: src/bz-window.c:683
-msgid "You can't remove Bazaar from Bazaar!"
+#, fuzzy
+msgid "You can't remove Warsi from Warsi!"
 msgstr "لا يمكنك حذف بازار من بازار!"
 
 #: src/bz-window.c:891 src/bz-window.c:925

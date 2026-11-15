@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
-  <id>io.github.kolunmi.Bazaar</id>
+  <id>id.blankonlinux.warsi</id>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0-or-later</project_license>
 
-  <!-- Translators: Please treat "Bazaar" as a brand name and avoid translating. -->
-  <name>Bazaar</name>
+  <!-- Translators: Please treat "Warsi" and "Bazaar" as brand names and avoid translating. -->
+  <name>Warsi</name>
   <summary>Discover and install apps</summary>
   <description>
     <p>
       A fast and modern app store for Linux with a focus on discovering
       and installing Flatpak apps and add-ons, particularly from Flathub.
+    </p>
+    <p>
+      Warsi is based on Bazaar and heavily patched by BlankOn Linux. Besides
+      Flatpak apps, it also keeps the system's Debian APT packages up to date.
     </p>
     <ul>
       <li>Queue multiple installs and keep browsing</li>
@@ -30,7 +34,7 @@
   </requires>
 
   <developer id="io.github.kolunmi">
-    <!-- Translators: Please treat "Bazaar" as a brand name and avoid translating. -->
+    <!-- Translators: Please treat "Warsi" and "Bazaar" as brand names and avoid translating. -->
     <name>The Bazaar Contributors</name>
   </developer>
 
@@ -44,8 +48,8 @@
   <url type="contact">https://gitlab.gnome.org/World/bazaar</url>
   <url type="contribute">https://gitlab.gnome.org/World/bazaar</url>
 
-  <translation type="gettext">bazaar</translation>
-  <launchable type="desktop-id">io.github.kolunmi.Bazaar.desktop</launchable>
+  <translation type="gettext">warsi</translation>
+  <launchable type="desktop-id">id.blankonlinux.warsi.desktop</launchable>
   <content_rating type="oars-1.1" />
 
   <branding>

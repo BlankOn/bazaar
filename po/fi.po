@@ -18,77 +18,77 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 3.10\n"
 
-#. Translators: Please treat "Bazaar" as a brand name and avoid translating.
-#: data/io.github.kolunmi.Bazaar.desktop.in:3 data/io.github.kolunmi.Bazaar.metainfo.xml.in:8 src/bz-window.blp:55
+#. Translators: Please treat "Warsi" and "Bazaar" as brand names and avoid translating.
+#: data/id.blankonlinux.warsi.desktop.in:3 data/id.blankonlinux.warsi.metainfo.xml.in:8 src/bz-window.blp:55
 #: src/bz-window.blp:192 src/bz-window.c:435 src/bz-window.c:436
-msgid "Bazaar"
-msgstr "Bazaar"
+msgid "Warsi"
+msgstr "Warsi"
 
-#: data/io.github.kolunmi.Bazaar.desktop.in:4
+#: data/id.blankonlinux.warsi.desktop.in:4
 msgid "App Store"
 msgstr "Sovelluskauppa"
 
-#: data/io.github.kolunmi.Bazaar.desktop.in:5
+#: data/id.blankonlinux.warsi.desktop.in:5
 msgid "Add, remove or update flatpak software on this computer"
 msgstr "Lisää, poista tai päivitä tämän tietokoneen Flatpak-ohjelmistoja"
 
-#: data/io.github.kolunmi.Bazaar.desktop.in:11
+#: data/id.blankonlinux.warsi.desktop.in:11
 msgid "System;Package;Manager;Discover;Flatpak;Software;App;Store;"
 msgstr "System;Package;Manager;Discover;Flatpak;Software;App;Store;sovellus;äppi;appi;sovelluskauppa;ohjelma;ohjelmisto;"
 
-#: data/io.github.kolunmi.Bazaar.desktop.in:18
+#: data/id.blankonlinux.warsi.desktop.in:18
 msgid "New Window"
 msgstr "Uusi ikkuna"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:9
+#: data/id.blankonlinux.warsi.metainfo.xml.in:9
 msgid "Discover and install apps"
 msgstr "Löydä ja asenna sovelluksia"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:11
+#: data/id.blankonlinux.warsi.metainfo.xml.in:11
 msgid ""
 "A fast and modern app store for Linux with a focus on discovering and installing Flatpak apps and add-ons, "
 "particularly from Flathub."
 msgstr ""
 "Nopea ja moderni sovelluskauppa Linuxille. Löydä ja asenna Flatpak-sovelluksia sekä -lisäosia erityisesti Flathubista."
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:16
+#: data/id.blankonlinux.warsi.metainfo.xml.in:16
 msgid "Queue multiple installs and keep browsing"
 msgstr "Aseta useita asennuksia jonoon ja jatka selailua"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:17
+#: data/id.blankonlinux.warsi.metainfo.xml.in:17
 msgid "Easily view app permissions"
 msgstr "Tutki vaivattomasti sovellusten käyttöoikeuksia"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:18
+#: data/id.blankonlinux.warsi.metainfo.xml.in:18
 msgid "Sign in to Flathub to view and manage your favorites"
 msgstr "Kirjaudu Flathubiin nähdäksesi ja hallinnoidaksesi suosikkejasi"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:19
+#: data/id.blankonlinux.warsi.metainfo.xml.in:19
 msgid "Search apps directly from GNOME Shell"
 msgstr "Etsi sovelluksia suoraan Gnomen yleisnäkymästä"
 
-#. Translators: Please treat "Bazaar" as a brand name and avoid translating.
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:34 src/bz-application.c:892
+#. Translators: Please treat "Warsi" and "Bazaar" as brand names and avoid translating.
+#: data/id.blankonlinux.warsi.metainfo.xml.in:34 src/bz-application.c:892
 msgid "The Bazaar Contributors"
 msgstr "Bazaar-avustajat"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:59
+#: data/id.blankonlinux.warsi.metainfo.xml.in:59
 msgid "The home page displaying Flathub apps"
 msgstr "Etusivu ja Flathub-sovelluksia esillä"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:63
+#: data/id.blankonlinux.warsi.metainfo.xml.in:63
 msgid "App page for Exhibit"
 msgstr "Exhibit-sovelluksen esittelysivu"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:67
+#: data/id.blankonlinux.warsi.metainfo.xml.in:67
 msgid "Library page"
 msgstr "Kirjasto"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:71
+#: data/id.blankonlinux.warsi.metainfo.xml.in:71
 msgid "Search page"
 msgstr "Haku"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:75
+#: data/id.blankonlinux.warsi.metainfo.xml.in:75
 msgid "Category page"
 msgstr "Luokat"
 
@@ -750,11 +750,8 @@ msgid "Set Up Flathub?"
 msgstr "Määritetäänkö Flathub?"
 
 #: src/bz-application.c:1193
-msgid ""
-"Flathub is not set up on this system. You will not be able to browse and install applications in Bazaar if its "
-"unavailable.\n"
-"\n"
-"You can still use Bazaar to browse and remove already installed apps."
+#, fuzzy
+msgid "Flathub is not set up on this system. You will not be able to browse and install applications in Warsi if its unavailable.\n\nYou can still use Warsi to browse and remove already installed apps."
 msgstr ""
 "Flathubia ei ole määritetty järjestelmään. Et voi selata ja asentaa sovelluksia Bazaaria käyttäen, jos Flatpak ei ole "
 "käytettävissä.\n"
@@ -889,10 +886,8 @@ msgid "Additional dependencies may take extra space"
 msgstr "Lisäriippuvuudet voivat viedä ylimääräistä tilaa"
 
 #: src/bz-bundle-install-dialog.blp:232
-msgid ""
-"Installing this app may require adding a new software source. Other apps from this source will show up in Bazaar.\n"
-"\n"
-"Only add this source if you're sure you trust it."
+#, fuzzy
+msgid "Installing this app may require adding a new software source. Other apps from this source will show up in Warsi.\n\nOnly add this source if you're sure you trust it."
 msgstr ""
 "Tämän sovelluksen asentaminen saattaa vaatia uuden ohjelmistolähteen lisäämisen. Muut kyseisestä lähteestä peräisin "
 "olevat sovellukset ilmestyvät näkyviin Bazaarissa.\n"
@@ -1037,7 +1032,7 @@ msgstr "<1%"
 msgid "%.0f%%"
 msgstr "%.0f% %"
 
-#. Translators: Please treat "Bazaar" as a brand name and avoid translating.
+#. Translators: Please treat "Warsi" and "Bazaar" as brand names and avoid translating.
 #: src/bz-donations-dialog.blp:8
 msgid "Bazaar Release"
 msgstr "Bazaar-julkaisu"
@@ -1050,12 +1045,12 @@ msgstr "Julkaisutiedot kokonaisuudessaan"
 msgid "This release was made possible by users like you!"
 msgstr "Tämän julkaisun mahdollisti kaltaisesi käyttäjät!"
 
-#. Translators: Please treat "Bazaar" as a brand name and avoid translating.
+#. Translators: Please treat "Warsi" and "Bazaar" as brand names and avoid translating.
 #: src/bz-donations-dialog.blp:122
 msgid "I love making Bazaar, but I cannot do it alone. Help support further development by donating on Ko-Fi."
 msgstr "Tykkään todella Bazaarin kehittämisestä, mutta en voi tehdä sitä yksin. Tue kehitystä lahjoittamalla Ko-Fi:ssa."
 
-#. Translators: Please treat "Bazaar" as a brand name and avoid translating.
+#. Translators: Please treat "Warsi" and "Bazaar" as brand names and avoid translating.
 #: src/bz-donations-dialog.blp:137
 msgid "Donate to Bazaar"
 msgstr "Lahjoita Bazaarille"
@@ -2259,10 +2254,10 @@ msgstr ""
 msgid "Neutrois Pride Colors"
 msgstr ""
 
-#. Translators: Please treat "Bazaar" as a brand name and avoid translating.
+#. Translators: Please treat "Warsi" and "Bazaar" as brand names and avoid translating.
 #: src/bz-preferences-dialog.c:287
-msgid "Bazaar needs to run in the background to check for app updates"
-msgstr "Bazaar tulee olla käynnissä taustalla, jotta se voi tarkistaa sovellusten päivitykset"
+msgid "Warsi needs to run in the background to check for app updates"
+msgstr "Warsi tulee olla käynnissä taustalla, jotta se voi tarkistaa sovellusten päivitykset"
 
 #: src/bz-releases-dialog.blp:5 src/bz-updates-card.vala:167
 msgid "Version History"
@@ -3010,10 +3005,10 @@ msgstr "Haku"
 msgid "Main Menu"
 msgstr "Päävalikko"
 
-#. Translators: Please treat "Bazaar" as a brand name and avoid translating.
+#. Translators: Please treat "Warsi" and "Bazaar" as brand names and avoid translating.
 #: src/bz-window.blp:216
-msgid "You are running a new version of Bazaar!"
-msgstr "Käytössäsi on uusi Bazaar-versio!"
+msgid "You are running a new version of Warsi!"
+msgstr "Käytössäsi on uusi Warsi-versio!"
 
 #: src/bz-window.blp:217
 msgid "See What's New"
@@ -3027,7 +3022,7 @@ msgstr "Verkkoyhteys on käytettävissä, mutta katselet välimuistissa olevaa v
 msgid "Network connection is metered — automatic refreshes disabled"
 msgstr "Verkkoyhteyttä laskutetaan käytön mukaan — automaattiset virkistykset pois käytöstä"
 
-#. Translators: Please treat "Bazaar" as a brand name and avoid translating.
+#. Translators: Please treat "Warsi" and "Bazaar" as brand names and avoid translating.
 #: src/bz-window.blp:272
 msgid "_Donate to Bazaar"
 msgstr "_Lahjoita Bazaarille"
@@ -3056,25 +3051,25 @@ msgstr "_Asetukset"
 msgid "_Keyboard Shortcuts"
 msgstr "_Pikanäppäimet"
 
-#. Translators: Please treat "Bazaar" as a brand name and avoid translating.
+#. Translators: Please treat "Warsi" and "Bazaar" as brand names and avoid translating.
 #: src/bz-window.blp:311
-msgid "_About Bazaar"
-msgstr "_Tietoja - Bazaar"
+msgid "_About Warsi"
+msgstr "_Tietoja - Warsi"
 
-#. Translators: Please treat "Bazaar" as a brand name and avoid translating.
+#. Translators: Please treat "Warsi" and "Bazaar" as brand names and avoid translating.
 #: src/bz-window.blp:318
-msgid "_Quit Bazaar"
-msgstr "_Lopeta Bazaar"
+msgid "_Quit Warsi"
+msgstr "_Lopeta Warsi"
 
 #: src/bz-window.blp:334
 msgid "Log Out"
 msgstr "Kirjaudu ulos"
 
-#. Translators: Please treat "Bazaar" as a brand name and avoid translating. %s is the title of the current page.
+#. Translators: Please treat "Warsi" and "Bazaar" as brand names and avoid translating. %s is the title of the current page.
 #: src/bz-window.c:438
 #, c-format
-msgid "Bazaar — %s"
-msgstr "Bazaar — %s"
+msgid "Warsi — %s"
+msgstr "Warsi — %s"
 
 #: src/bz-window.c:726 src/bz-window.c:775
 msgid "Failed to launch application"
@@ -3084,9 +3079,10 @@ msgstr "Sovelluksen käynnistäminen epäonnistui"
 msgid "Could not open link"
 msgstr "Linkkiä ei voitu avata"
 
-#. Translators: Please treat "Bazaar" as a brand name and avoid translating.
+#. Translators: Please treat "Warsi" and "Bazaar" as brand names and avoid translating.
 #: src/bz-window.c:1074
-msgid "You can't remove Bazaar from Bazaar!"
+#, fuzzy
+msgid "You can't remove Warsi from Warsi!"
 msgstr "Et voi poistaa Bazaaria Bazaarista!"
 
 #: src/bz-window.c:1463 src/bz-window.c:1497
@@ -3561,8 +3557,8 @@ msgstr "Sulje ikkuna"
 
 #: src/shortcuts-dialog.blp:52
 msgctxt "shortcut window"
-msgid "Quit Bazaar"
-msgstr "Lopeta Bazaar"
+msgid "Quit Warsi"
+msgstr "Lopeta Warsi"
 
 #. Translators: The other Linux distributions, in the install statistics
 #: src/stats-types.vala:59

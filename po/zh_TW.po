@@ -21,38 +21,38 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 26.11.70\n"
 
-#. Translators: Please treat "Bazaar" as a brand name and avoid translating.
-#: data/io.github.kolunmi.Bazaar.desktop.in:3
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:8 src/bz-window.blp:55
+#. Translators: Please treat "Warsi" and "Bazaar" as brand names and avoid translating.
+#: data/id.blankonlinux.warsi.desktop.in:3
+#: data/id.blankonlinux.warsi.metainfo.xml.in:8 src/bz-window.blp:55
 #: src/bz-window.blp:211 src/bz-window.c:382 src/bz-window.c:383
-msgid "Bazaar"
-msgstr "Bazaar"
+msgid "Warsi"
+msgstr "Warsi"
 
-#: data/io.github.kolunmi.Bazaar.desktop.in:4
+#: data/id.blankonlinux.warsi.desktop.in:4
 #| msgid "App Size"
 msgid "App Store"
 msgstr "應用程式商店"
 
-#: data/io.github.kolunmi.Bazaar.desktop.in:5
+#: data/id.blankonlinux.warsi.desktop.in:5
 msgid "Add, remove or update flatpak software on this computer"
 msgstr "新增、移除或更新此電腦上的 Flatpak 軟體"
 
-#: data/io.github.kolunmi.Bazaar.desktop.in:11
+#: data/id.blankonlinux.warsi.desktop.in:11
 #| msgid "GTK;System;PackageManager;Discover;Flatpak;Software;Store;"
 msgid "System;Package;Manager;Discover;Flatpak;Software;App;Store;"
 msgstr ""
 "System;Package;Manager;Discover;Flatpak;Software;App;Store;套件管理;探索;軟體;"
 "商店;軟體包;"
 
-#: data/io.github.kolunmi.Bazaar.desktop.in:18
+#: data/id.blankonlinux.warsi.desktop.in:18
 msgid "New Window"
 msgstr "新視窗"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:9
+#: data/id.blankonlinux.warsi.metainfo.xml.in:9
 msgid "Discover and install apps"
 msgstr "探索與安裝應用程式"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:11
+#: data/id.blankonlinux.warsi.metainfo.xml.in:11
 msgid ""
 "A fast and modern app store for Linux with a focus on discovering and "
 "installing Flatpak apps and add-ons, particularly from Flathub."
@@ -60,44 +60,44 @@ msgstr ""
 "為 Linux 打造的高效能現代應用程式商店，著重探索與安裝來自 Flatpak 遠端（特別"
 "是 Flathub）的應用程式與附加元件。"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:16
+#: data/id.blankonlinux.warsi.metainfo.xml.in:16
 msgid "Queue multiple installs and keep browsing"
 msgstr "將要安裝的應用程式加入佇列然後繼續瀏覽"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:17
+#: data/id.blankonlinux.warsi.metainfo.xml.in:17
 msgid "Easily view app permissions"
 msgstr "輕易檢視應用程式權限"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:18
+#: data/id.blankonlinux.warsi.metainfo.xml.in:18
 msgid "Sign in to Flathub to view and manage your favorites"
 msgstr "登入至 Flathub 以檢視與管理最愛"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:19
+#: data/id.blankonlinux.warsi.metainfo.xml.in:19
 msgid "Search apps directly from GNOME Shell"
 msgstr "直接從 GNOME Shell 搜尋應用程式"
 
-#. Translators: Please treat "Bazaar" as a brand name and avoid translating.
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:34 src/bz-application.c:754
+#. Translators: Please treat "Warsi" and "Bazaar" as brand names and avoid translating.
+#: data/id.blankonlinux.warsi.metainfo.xml.in:34 src/bz-application.c:754
 msgid "The Bazaar Contributors"
 msgstr "Bazaar 貢獻者"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:59
+#: data/id.blankonlinux.warsi.metainfo.xml.in:59
 msgid "The home page displaying Flathub apps"
 msgstr "展示 Flathub 應用程式的首頁"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:63
+#: data/id.blankonlinux.warsi.metainfo.xml.in:63
 msgid "App page for Exhibit"
 msgstr "Exhibit 的應用程式頁面"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:67
+#: data/id.blankonlinux.warsi.metainfo.xml.in:67
 msgid "Library page"
 msgstr "程式庫頁面"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:71
+#: data/id.blankonlinux.warsi.metainfo.xml.in:71
 msgid "Search page"
 msgstr "搜尋頁面"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:75
+#: data/id.blankonlinux.warsi.metainfo.xml.in:75
 msgid "Category page"
 msgstr "分類頁面"
 
@@ -785,7 +785,7 @@ msgid ""
 "\n"
 "You can then remove this Flatpak version with\n"
 "\n"
-"<tt>flatpak uninstall io.github.kolunmi.Bazaar</tt>"
+"<tt>flatpak uninstall id.blankonlinux.warsi</tt>"
 msgstr ""
 "Ubuntu 25.10 以及更新的版本變更了預設安全性規則，而使得 Flatpak 版的 Bazaar <b>沒有辦法安裝應用程式</b>。這個情況尚未解"
 "決，因此目前請先改為使用 apt 套件。請使用以下指令安裝它：\n"
@@ -794,7 +794,7 @@ msgstr ""
 "\n"
 "安裝之後您可以這樣移除目前使用的 Flatpak 版本：\n"
 "\n"
-"<tt>flatpak uninstall io.github.kolunmi.Bazaar</tt>"
+"<tt>flatpak uninstall id.blankonlinux.warsi</tt>"
 
 #: src/bz-application.c:1068
 #| msgid "_Install Anyway"
@@ -827,16 +827,8 @@ msgid "Set Up Flathub?"
 msgstr "要設定 Flathub 嗎？"
 
 #: src/bz-application.c:1196
-msgid ""
-"Flathub is not set up on this system. You will not be able to browse and "
-"install applications in Bazaar if its unavailable.\n"
-"\n"
-"You can still use Bazaar to browse and remove already installed apps."
-msgstr ""
-"Flathub 未在此系統上設定完成。若無法使用 Flathub，您將無法在 Bazaar 中瀏覽或"
-"安裝應用程式。\n"
-"\n"
-"您仍可使用 Bazaar 來瀏覽或移除已安裝的應用程式。"
+msgid "Flathub is not set up on this system. You will not be able to browse and install applications in Warsi if its unavailable.\n\nYou can still use Warsi to browse and remove already installed apps."
+msgstr "Flathub 未在此系統上設定完成。若無法使用 Flathub，您將無法在 Warsi 中瀏覽或安裝應用程式。\n\n您仍可使用 Warsi 來瀏覽或移除已安裝的應用程式。"
 
 #: src/bz-application.c:1202
 msgid "Later"
@@ -959,16 +951,8 @@ msgid "Additional dependencies may take extra space"
 msgstr "額外依賴可能會需要更多空間"
 
 #: src/bz-bundle-install-dialog.blp:232
-msgid ""
-"Installing this app may require adding a new software source. Other apps "
-"from this source will show up in Bazaar.\n"
-"\n"
-"Only add this source if you're sure you trust it."
-msgstr ""
-"安裝此應用程式可能需要加入新的軟體來源。加入後此來源的應用程式會出現在 "
-"Bazaar 當中。\n"
-"\n"
-"請確定僅在信任該來源時才將它加入。"
+msgid "Installing this app may require adding a new software source. Other apps from this source will show up in Warsi.\n\nOnly add this source if you're sure you trust it."
+msgstr "安裝此應用程式可能需要加入新的軟體來源。加入後此來源的應用程式會出現在 Warsi 當中。\n\n請確定僅在信任該來源時才將它加入。"
 
 #: src/bz-bundle-install-dialog.blp:414
 msgid "Successfully Installed!"
@@ -1083,7 +1067,7 @@ msgstr "應用程式 ID %1$s 的所有權已透過 %2$s 驗證。"
 msgid "The ownership of the %s app ID has been verified."
 msgstr "應用程式 ID %s 的所有權已完成驗證。"
 
-#. Translators: Please treat "Bazaar" as a brand name and avoid translating.
+#. Translators: Please treat "Warsi" and "Bazaar" as brand names and avoid translating.
 #: src/bz-donations-dialog.blp:8
 #| msgid "Bazaar"
 msgid "Bazaar Release"
@@ -1097,7 +1081,7 @@ msgstr "完整發行註記"
 msgid "This release was made possible by users like you!"
 msgstr "這個版本由如同您的使用者支持而變得可能！"
 
-#. Translators: Please treat "Bazaar" as a brand name and avoid translating.
+#. Translators: Please treat "Warsi" and "Bazaar" as brand names and avoid translating.
 #: src/bz-donations-dialog.blp:122
 msgid ""
 "I love making Bazaar, but I cannot do it alone. Help support further "
@@ -1106,7 +1090,7 @@ msgstr ""
 "我熱愛製作 Bazaar，但我沒辦法靠自己一個人獨自完成。請到 Ko-Fi 捐款來支持持續"
 "的開發。"
 
-#. Translators: Please treat "Bazaar" as a brand name and avoid translating.
+#. Translators: Please treat "Warsi" and "Bazaar" as brand names and avoid translating.
 #: src/bz-donations-dialog.blp:137
 msgid "Donate to Bazaar"
 msgstr "捐款給 Bazaar"
@@ -2324,10 +2308,10 @@ msgstr "女性氣質男性驕傲旗配色"
 msgid "Neutrois Pride Colors"
 msgstr "中性性別驕傲旗配色"
 
-#. Translators: Please treat "Bazaar" as a brand name and avoid translating.
+#. Translators: Please treat "Warsi" and "Bazaar" as brand names and avoid translating.
 #: src/bz-preferences-dialog.c:286
-msgid "Bazaar needs to run in the background to check for app updates"
-msgstr "Bazaar 需要在背景執行來檢查應用程式更新"
+msgid "Warsi needs to run in the background to check for app updates"
+msgstr "Warsi 需要在背景執行來檢查應用程式更新"
 
 #: src/bz-releases-dialog.blp:5 src/bz-updates-card.c:159
 msgid "Version History"
@@ -3001,10 +2985,10 @@ msgstr "搜尋"
 msgid "Main Menu"
 msgstr "主選單"
 
-#. Translators: Please treat "Bazaar" as a brand name and avoid translating.
+#. Translators: Please treat "Warsi" and "Bazaar" as brand names and avoid translating.
 #: src/bz-window.blp:235
-msgid "You are running a new version of Bazaar!"
-msgstr "您已更新到新版本 Bazaar！"
+msgid "You are running a new version of Warsi!"
+msgstr "您已更新到新版本 Warsi！"
 
 #: src/bz-window.blp:236
 msgid "See What's New"
@@ -3021,7 +3005,7 @@ msgstr "您目前有網路連線，但正在檢視 Flathub 的快取版本"
 msgid "Network connection is metered — automatic refreshes disabled"
 msgstr "目前的網路連線為計量連線 —— 已暫停自動重新整理"
 
-#. Translators: Please treat "Bazaar" as a brand name and avoid translating.
+#. Translators: Please treat "Warsi" and "Bazaar" as brand names and avoid translating.
 #: src/bz-window.blp:291
 msgid "_Donate to Bazaar"
 msgstr "捐款給 Bazaar(_D)"
@@ -3046,25 +3030,25 @@ msgstr "偏好設定(_P)"
 msgid "_Keyboard Shortcuts"
 msgstr "鍵盤快捷鍵(&K)"
 
-#. Translators: Please treat "Bazaar" as a brand name and avoid translating.
+#. Translators: Please treat "Warsi" and "Bazaar" as brand names and avoid translating.
 #: src/bz-window.blp:324
-msgid "_About Bazaar"
-msgstr "關於 Bazaar(&A)"
+msgid "_About Warsi"
+msgstr "關於 Warsi(&A)"
 
-#. Translators: Please treat "Bazaar" as a brand name and avoid translating.
+#. Translators: Please treat "Warsi" and "Bazaar" as brand names and avoid translating.
 #: src/bz-window.blp:331
-msgid "_Quit Bazaar"
-msgstr "退出 Bazaar(&Q)"
+msgid "_Quit Warsi"
+msgstr "退出 Warsi(&Q)"
 
 #: src/bz-window.blp:357
 msgid "Log Out"
 msgstr "登出"
 
-#. Translators: Please treat "Bazaar" as a brand name and avoid translating. %s is the title of the current page.
+#. Translators: Please treat "Warsi" and "Bazaar" as brand names and avoid translating. %s is the title of the current page.
 #: src/bz-window.c:385
 #, c-format
-msgid "Bazaar — %s"
-msgstr "Bazaar — %s"
+msgid "Warsi — %s"
+msgstr "Warsi — %s"
 
 #: src/bz-window.c:665 src/bz-window.c:714
 msgid "Failed to launch application"
@@ -3075,10 +3059,10 @@ msgstr "啟動應用程式失敗"
 msgid "Could not open link"
 msgstr "無法開啟連結"
 
-#. Translators: Please treat "Bazaar" as a brand name and avoid translating.
+#. Translators: Please treat "Warsi" and "Bazaar" as brand names and avoid translating.
 #: src/bz-window.c:1002
-msgid "You can't remove Bazaar from Bazaar!"
-msgstr "您無法在 Bazaar 中移除 Bazaar 本身！"
+msgid "You can't remove Warsi from Warsi!"
+msgstr "您無法在 Warsi 中移除 Warsi 本身！"
 
 #: src/bz-window.c:1386 src/bz-window.c:1420
 msgid "Can't do that right now!"
@@ -3549,8 +3533,8 @@ msgstr "關閉視窗"
 
 #: src/shortcuts-dialog.blp:52
 msgctxt "shortcut window"
-msgid "Quit Bazaar"
-msgstr "退出 Bazaar"
+msgid "Quit Warsi"
+msgstr "退出 Warsi"
 
 #: src/transaction-notification.c:133
 #, c-format

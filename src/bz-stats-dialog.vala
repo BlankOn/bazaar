@@ -18,7 +18,7 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-[GtkTemplate (ui = "/io/github/kolunmi/Bazaar/bz-stats-dialog.ui")]
+[GtkTemplate (ui = "/id/blankonlinux/warsi/bz-stats-dialog.ui")]
 public sealed class Bz.StatsDialog : Adw.BreakpointBin {
     private const int DISTROS_DIALOG_WIDTH = 700;
     private const int DIALOG_HEADER_HEIGHT = 47;

@@ -27,7 +27,7 @@
 #include "bz-auth-state.h"
 #include "env.h"
 
-#define SECRET_SCHEMA_NAME "io.github.kolunmi.Bazaar.FlathubAuth"
+#define SECRET_SCHEMA_NAME "id.blankonlinux.warsi.FlathubAuth"
 #define SECRET_LABEL       "Flathub Authentication"
 
 struct _BzAuthState

@@ -447,7 +447,7 @@ bz_library_page_class_init (BzLibraryPageClass *klass)
   /* DOWNSTREAM PATCH (APT system updates) */
   g_type_ensure (BZ_TYPE_APT_UPDATES_CARD);
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/kolunmi/Bazaar/bz-library-page.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/id/blankonlinux/warsi/bz-library-page.ui");
   bz_widget_class_bind_all_util_callbacks (widget_class);
 
   gtk_widget_class_bind_template_child (widget_class, BzLibraryPage, stack);

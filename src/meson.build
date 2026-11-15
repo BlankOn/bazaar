@@ -66,6 +66,8 @@ bz_sources = files(
   'bz-app-tile.c',
   'bz-application-map-factory.c',
   'bz-application.c',
+  # DOWNSTREAM PATCH (Warsi rebrand)
+  'bz-rebrand.c',
   'bz-apps-page.c',
   # DOWNSTREAM PATCH (APT system updates): see ai-patches/DIFF.md
   'bz-apt-updates.c',
@@ -274,7 +276,7 @@ blueprints = custom_target('blueprints',
 
 release_notes = custom_target('release-notes.xml',
   output: 'release-notes.xml',
-  input: meson.project_source_root() / 'data' / 'io.github.kolunmi.Bazaar.metainfo.xml.in',
+  input: meson.project_source_root() / 'data' / 'id.blankonlinux.warsi.metainfo.xml.in',
   command: [
     'sh', '-c',
     xmllint.full_path() + ' --xpath "//releases/release[1]" "$1" > "$2"',
@@ -385,7 +387,7 @@ bz_vala_header_stamp = custom_target('bzvala-header-stamp',
   command: ['touch', '@OUTPUT@'],
 )
 
-shared_module('bazaar-login-page', 'bz-login-page.c', bz_vala_header_stamp,
+shared_module('warsi-login-page', 'bz-login-page.c', bz_vala_header_stamp,
   dependencies: [
     bz_vala_dep.partial_dependency(compile_args: true, includes: true),
     libadwaita_dep,

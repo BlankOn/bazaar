@@ -20,30 +20,30 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n==2 ? 1 : 2;\n"
 "X-Generator: Weblate 2026.5\n"
 
-#: data/io.github.kolunmi.Bazaar.desktop.in:3
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:7 src/bz-window.blp:45
+#: data/id.blankonlinux.warsi.desktop.in:3
+#: data/id.blankonlinux.warsi.metainfo.xml.in:7 src/bz-window.blp:45
 #: src/bz-window.blp:199 src/bz-window.c:373 src/bz-window.c:374
-msgid "Bazaar"
-msgstr "Bazaar"
+msgid "Warsi"
+msgstr "Warsi"
 
-#: data/io.github.kolunmi.Bazaar.desktop.in:4
+#: data/id.blankonlinux.warsi.desktop.in:4
 msgid "Add, remove or update flatpak software on this computer"
 msgstr ""
 "Bogearraí flatpak a chur leis, a bhaint nó a nuashonrú ar an ríomhaire seo"
 
-#: data/io.github.kolunmi.Bazaar.desktop.in:10
+#: data/id.blankonlinux.warsi.desktop.in:10
 msgid "GTK;System;PackageManager;Discover;Flatpak;Software;Store;"
 msgstr "GTK;Córas;Bainisteoir Pacáistí;Faigh Amach;Flatpak;Bogearraí;Stór;"
 
-#: data/io.github.kolunmi.Bazaar.desktop.in:17
+#: data/id.blankonlinux.warsi.desktop.in:17
 msgid "New Window"
 msgstr "Fuinneog Nua"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:8
+#: data/id.blankonlinux.warsi.metainfo.xml.in:8
 msgid "Discover and manage applications"
 msgstr "Aimsigh agus bainistigh feidhmchláir"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:10
+#: data/id.blankonlinux.warsi.metainfo.xml.in:10
 msgid ""
 "A fast and modern app store for Linux with a focus on discovering and "
 "installing Flatpak apps and addons, particularly from Flathub."
@@ -51,45 +51,45 @@ msgstr ""
 "Siopa aipeanna gasta agus nua-aimseartha do Linux le fócas ar aipeanna agus "
 "breiseáin Flatpak a aimsiú agus a shuiteáil, go háirithe ó Flathub."
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:15
+#: data/id.blankonlinux.warsi.metainfo.xml.in:15
 msgid "Queue multiple installs and keep browsing"
 msgstr "Cuir ilshuiteálacha i scuaine agus lean ort ag brabhsáil"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:16
+#: data/id.blankonlinux.warsi.metainfo.xml.in:16
 msgid "Easily view app permissions"
 msgstr "Féach go héasca ar cheadanna aipeanna"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:17
+#: data/id.blankonlinux.warsi.metainfo.xml.in:17
 msgid "Sign in to Flathub to view and manage your favorites"
 msgstr ""
 "Sínigh isteach chuig Flathub chun do rogha pearsanta a fheiceáil agus a "
 "bhainistiú"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:18
+#: data/id.blankonlinux.warsi.metainfo.xml.in:18
 msgid "Search apps directly from GNOME Shell"
 msgstr "Cuardaigh aipeanna go díreach ó GNOME Shell"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:30 src/bz-application.c:762
+#: data/id.blankonlinux.warsi.metainfo.xml.in:30 src/bz-application.c:762
 msgid "The Bazaar Contributors"
 msgstr "Rannpháirtithe an Bazaar"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:55
+#: data/id.blankonlinux.warsi.metainfo.xml.in:55
 msgid "The home page displaying Flathub apps"
 msgstr "An leathanach baile a thaispeánann aipeanna Flathub"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:59
+#: data/id.blankonlinux.warsi.metainfo.xml.in:59
 msgid "Exhibit app page"
 msgstr "Leathanach aip taispeántais"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:63
+#: data/id.blankonlinux.warsi.metainfo.xml.in:63
 msgid "Library page"
 msgstr "Leathanach na leabharlainne"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:67
+#: data/id.blankonlinux.warsi.metainfo.xml.in:67
 msgid "Search page"
 msgstr "Leathanach cuardaigh"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:71
+#: data/id.blankonlinux.warsi.metainfo.xml.in:71
 msgid "Category page"
 msgstr "Leathanach catagóire"
 
@@ -774,17 +774,8 @@ msgid "Set Up Flathub?"
 msgstr "Suiteáil Flathub?"
 
 #: src/bz-application.c:1068
-msgid ""
-"Flathub is not set up on this system. You will not be able to browse and "
-"install applications in Bazaar if its unavailable.\n"
-"\n"
-"You can still use Bazaar to browse and remove already installed apps."
-msgstr ""
-"Níl Flathub socraithe ar an gcóras seo. Ní bheidh tú in ann brabhsáil agus "
-"feidhmchláir a shuiteáil i Bazaar mura bhfuil sé ar fáil.\n"
-"\n"
-"Is féidir leat Bazaar a úsáid fós chun brabhsáil agus aipeanna atá "
-"suiteáilte cheana féin a bhaint."
+msgid "Flathub is not set up on this system. You will not be able to browse and install applications in Warsi if its unavailable.\n\nYou can still use Warsi to browse and remove already installed apps."
+msgstr "Níl Flathub socraithe ar an gcóras seo. Ní bheidh tú in ann brabhsáil agus feidhmchláir a shuiteáil i Warsi mura bhfuil sé ar fáil.\n\nIs féidir leat Warsi a úsáid fós chun brabhsáil agus aipeanna atá suiteáilte cheana féin a bhaint."
 
 #: src/bz-application.c:1074
 msgid "Later"
@@ -875,17 +866,8 @@ msgid "Additional dependencies may take extra space"
 msgstr "D’fhéadfadh spleáchais bhreise spás breise a thógáil"
 
 #: src/bz-bundle-install-dialog.blp:181
-msgid ""
-"Installing this app may require adding a new software source. Other apps "
-"from this source will show up in Bazaar.\n"
-"\n"
-"Only add this source if you're sure you trust it."
-msgstr ""
-"B’fhéidir go mbeadh gá le foinse bogearraí nua a chur leis agus an aip seo á "
-"shuiteáil. Beidh aipeanna eile ón bhfoinse seo le feiceáil i Bazaar.\n"
-"\n"
-"Ná cuir an fhoinse seo leis ach amháin má tá tú cinnte go bhfuil muinín agat "
-"aisti."
+msgid "Installing this app may require adding a new software source. Other apps from this source will show up in Warsi.\n\nOnly add this source if you're sure you trust it."
+msgstr "B’fhéidir go mbeadh gá le foinse bogearraí nua a chur leis agus an aip seo á shuiteáil. Beidh aipeanna eile ón bhfoinse seo le feiceáil i Warsi.\n\nNá cuir an fhoinse seo leis ach amháin má tá tú cinnte go bhfuil muinín agat aisti."
 
 #: src/bz-bundle-install-dialog.blp:357
 msgid "Successfully Installed!"
@@ -3142,8 +3124,8 @@ msgid "Main Menu"
 msgstr "Príomh-Roghchlár"
 
 #: src/bz-window.blp:223
-msgid "You are running a new version of Bazaar!"
-msgstr "Tá leagan nua de Bazaar á rith agat!"
+msgid "You are running a new version of Warsi!"
+msgstr "Tá leagan nua de Warsi á rith agat!"
 
 #: src/bz-window.blp:224
 msgid "See What's New"
@@ -3180,12 +3162,12 @@ msgid "_Keyboard Shortcuts"
 msgstr "_Aicearraí Méarchláir"
 
 #: src/bz-window.blp:309
-msgid "_About Bazaar"
-msgstr "_Maidir le Bazaar"
+msgid "_About Warsi"
+msgstr "_Maidir le Warsi"
 
 #: src/bz-window.blp:316
-msgid "_Quit Bazaar"
-msgstr "_Scoir den Bazaar"
+msgid "_Quit Warsi"
+msgstr "_Scoir den Warsi"
 
 #: src/bz-window.blp:341
 msgid "Log Out"
@@ -3194,16 +3176,16 @@ msgstr "Logáil Amach"
 #. Translators: %s is the title of the current page
 #: src/bz-window.c:376
 #, c-format
-msgid "Bazaar — %s"
-msgstr "Bazaar — %s"
+msgid "Warsi — %s"
+msgstr "Warsi — %s"
 
 #: src/bz-window.c:596 src/bz-window.c:634
 msgid "Failed to launch application"
 msgstr "Theip ar an bhfeidhmchlár a sheoladh"
 
 #: src/bz-window.c:843
-msgid "You can't remove Bazaar from Bazaar!"
-msgstr "Ní féidir leat Bazaar a bhaint as Bazaar!"
+msgid "You can't remove Warsi from Warsi!"
+msgstr "Ní féidir leat Warsi a bhaint as Warsi!"
 
 #: src/bz-window.c:1127 src/bz-window.c:1161
 msgid "Can't do that right now!"
@@ -3269,8 +3251,8 @@ msgstr "Dún an Fhuinneog"
 
 #: src/shortcuts-dialog.blp:52
 msgctxt "shortcut window"
-msgid "Quit Bazaar"
-msgstr "Scoir den Bazaar"
+msgid "Quit Warsi"
+msgstr "Scoir den Warsi"
 
 #~ msgid ""
 #~ "It emphasizes supporting the developers who make the Linux desktop "

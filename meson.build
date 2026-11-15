@@ -1,4 +1,4 @@
-project('bazaar', ['c', 'vala'],
+project('warsi', ['c', 'vala'],
           version: run_command('version.sh', 'get-vcs').stdout().strip(),
     meson_version: '>= 1.0.0',
   default_options: [
@@ -95,29 +95,29 @@ else
     config_h.set_quoted('PACKAGE_VERSION', bz_version)
     config_h.set_quoted('PACKAGE_VCS_VERSION', bz_vcs_version)
     config_h.set_quoted('CACHE_VERSION', bz_cache_version)
-    config_h.set_quoted('GETTEXT_PACKAGE', 'bazaar')
-    config_h.set_quoted('APPLICATION_ID', 'io.github.kolunmi.Bazaar')
+    config_h.set_quoted('GETTEXT_PACKAGE', 'warsi')
+    config_h.set_quoted('APPLICATION_ID', 'id.blankonlinux.warsi')
     config_h.set_quoted('LOCALEDIR', get_option('prefix') / get_option('localedir'))
     config_h.set_quoted('DONATE_LINK', 'https://ko-fi.com/kolunmi')
     config_h.set_quoted('RELEASE_PAGE', run_command('version.sh', 'get-gitlab-release').stdout().strip())
 
-    bazaar_bin_name = 'bazaar'
+    bazaar_bin_name = 'warsi'
     config_h.set_quoted('BAZAAR_BIN_NAME', bazaar_bin_name)
     config_h.set_quoted('REFRESH_WORKER_CLI_OPTION', '--run-refresh-worker')
     config_h.set_quoted('UPDATE_WORKER_CLI_OPTION', '--run-update-worker')
 
-    dl_worker_bin_name = 'bazaar-dl-worker'
+    dl_worker_bin_name = 'warsi-dl-worker'
     config_h.set_quoted('DL_WORKER_BIN_NAME', dl_worker_bin_name)
 
-    daemon_bin_name = 'bazaar-daemon'
+    daemon_bin_name = 'warsi-daemon'
     config_h.set_quoted('DAEMON_BIN_NAME', daemon_bin_name)
 
-    bazaar_bin_name = 'bazaar'
+    bazaar_bin_name = 'warsi'
     config_h.set_quoted('BAZAAR_BIN_NAME', bazaar_bin_name)
     config_h.set_quoted('BAZAAR_BIN_PATH', get_option('prefix') / get_option('bindir') / bazaar_bin_name)
 
-    login_page_module_dir = get_option('libdir') / 'bazaar'
-    config_h.set_quoted('LOGIN_PAGE_MODULE_PATH', get_option('prefix') / login_page_module_dir / 'libbazaar-login-page.so')
+    login_page_module_dir = get_option('libdir') / 'warsi'
+    config_h.set_quoted('LOGIN_PAGE_MODULE_PATH', get_option('prefix') / login_page_module_dir / 'libwarsi-login-page.so')
 
     if get_option('hardcoded_main_config_path') != ''
       config_h.set_quoted('HARDCODED_MAIN_CONFIG', get_option('hardcoded_main_config_path'))
@@ -130,11 +130,11 @@ else
     endif
     if get_option('sandboxed_libflatpak')
       config_h.set_quoted('SANDBOXED_LIBFLATPAK', '1')
-      config_h.set_quoted('BWRAP_WRAPPER_PATH', get_option('prefix') / get_option('libexecdir') / 'bazaar-host-bwrap')
+      config_h.set_quoted('BWRAP_WRAPPER_PATH', get_option('prefix') / get_option('libexecdir') / 'warsi-host-bwrap')
       install_data(
         'build-aux/flatpak/bwrap-wrapper.sh',
         install_dir: get_option('libexecdir'),
-        rename: 'bazaar-host-bwrap',
+        rename: 'warsi-host-bwrap',
         install_mode: 'rwxr-xr-x',
       )
     endif
@@ -142,10 +142,10 @@ else
 
     if get_option('development')
       config_h.set10('DEVELOPMENT_BUILD', get_option('development'))
-      config_h.set_quoted('DEVELOPMENT_EXAMPLE_YAML', get_option('prefix') / get_option('datadir') / 'bazaar' / 'example.yaml')
+      config_h.set_quoted('DEVELOPMENT_EXAMPLE_YAML', get_option('prefix') / get_option('datadir') / 'warsi' / 'example.yaml')
       install_data(
         'docs/example.yaml',
-        install_dir: get_option('datadir') / 'bazaar',
+        install_dir: get_option('datadir') / 'warsi',
       )
     endif
 

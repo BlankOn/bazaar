@@ -82,7 +82,7 @@ public sealed class Bz.WorldMap : Gtk.Widget {
     private static void load () {
         Bytes bytes;
         try {
-            bytes = GLib.resources_lookup_data ("/io/github/kolunmi/Bazaar/countries.gvariant",
+            bytes = GLib.resources_lookup_data ("/id/blankonlinux/warsi/countries.gvariant",
                                                 GLib.ResourceLookupFlags.NONE);
         } catch (Error e) {
             assert_not_reached ();

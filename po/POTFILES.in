@@ -1,7 +1,7 @@
 # List of source files containing translatable strings.
 # Please keep this file sorted alphabetically.
-data/io.github.kolunmi.Bazaar.desktop.in
-data/io.github.kolunmi.Bazaar.metainfo.xml.in
+data/id.blankonlinux.warsi.desktop.in
+data/id.blankonlinux.warsi.metainfo.xml.in
 src/bz-addon-tile.blp
 src/bz-addon-tile.c
 src/bz-addons-dialog.blp
@@ -17,6 +17,7 @@ src/bz-app-tile.blp
 src/bz-app-tile.c
 src/bz-application-map-factory.c
 src/bz-application.c
+src/bz-rebrand.c
 src/bz-apps-page.blp
 src/bz-apps-page.c
 # DOWNSTREAM PATCH (APT system updates)

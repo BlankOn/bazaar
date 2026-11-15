@@ -21,30 +21,30 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: data/io.github.kolunmi.Bazaar.desktop.in:2
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:7 src/bz-window.blp:47
+#: data/id.blankonlinux.warsi.desktop.in:2
+#: data/id.blankonlinux.warsi.metainfo.xml.in:7 src/bz-window.blp:47
 #: src/bz-window.blp:203 src/bz-window.c:387 src/bz-window.c:388
-msgid "Bazaar"
-msgstr "Bazaar"
+msgid "Warsi"
+msgstr "Warsi"
 
-#: data/io.github.kolunmi.Bazaar.desktop.in:3
+#: data/id.blankonlinux.warsi.desktop.in:3
 msgid "Add, remove or update flatpak software on this computer"
 msgstr ""
 "Установка, удаление или обновление приложений Flatpak на этом компьютере"
 
-#: data/io.github.kolunmi.Bazaar.desktop.in:9
+#: data/id.blankonlinux.warsi.desktop.in:9
 msgid "GTK;System;PackageManager;Discover;Flatpak;Software;Store;"
 msgstr "GTK;Система;УправлениеПакетами;Discover;Flatpak;Приложения;Магазин;"
 
-#: data/io.github.kolunmi.Bazaar.desktop.in:16
+#: data/id.blankonlinux.warsi.desktop.in:16
 msgid "New Window"
 msgstr "Новое окно"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:8
+#: data/id.blankonlinux.warsi.metainfo.xml.in:8
 msgid "Discover and install apps"
 msgstr "Поиск и установка приложений"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:10
+#: data/id.blankonlinux.warsi.metainfo.xml.in:10
 msgid ""
 "A fast and modern app store for Linux with a focus on discovering and "
 "installing Flatpak apps and add-ons, particularly from Flathub."
@@ -52,45 +52,45 @@ msgstr ""
 "Быстрый и современный магазин приложений для Linux с акцентом на поиске и "
 "установке приложений Flatpak и дополнений, в первую очередь с Flathub."
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:15
+#: data/id.blankonlinux.warsi.metainfo.xml.in:15
 msgid "Queue multiple installs and keep browsing"
 msgstr ""
 "Добавляйте приложения в очередь установки и продолжайте просмотр"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:16
+#: data/id.blankonlinux.warsi.metainfo.xml.in:16
 msgid "Easily view app permissions"
 msgstr "С лёгкостью просматривайте разрешения приложений"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:17
+#: data/id.blankonlinux.warsi.metainfo.xml.in:17
 msgid "Sign in to Flathub to view and manage your favorites"
 msgstr ""
 "Войдите в Flathub и управляйте избранными приложениями"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:18
+#: data/id.blankonlinux.warsi.metainfo.xml.in:18
 msgid "Search apps directly from GNOME Shell"
 msgstr "Находите приложения прямо из GNOME Shell"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:30 src/bz-application.c:780
+#: data/id.blankonlinux.warsi.metainfo.xml.in:30 src/bz-application.c:780
 msgid "The Bazaar Contributors"
 msgstr "Разработчики Bazaar"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:55
+#: data/id.blankonlinux.warsi.metainfo.xml.in:55
 msgid "The home page displaying Flathub apps"
 msgstr "Главная страница, отображающая приложения Flathub"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:59
+#: data/id.blankonlinux.warsi.metainfo.xml.in:59
 msgid "Exhibit app page"
 msgstr "Страница приложения Exhibit"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:63
+#: data/id.blankonlinux.warsi.metainfo.xml.in:63
 msgid "Library page"
 msgstr "Страница библиотеки"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:67
+#: data/id.blankonlinux.warsi.metainfo.xml.in:67
 msgid "Search page"
 msgstr "Страница поиска"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:71
+#: data/id.blankonlinux.warsi.metainfo.xml.in:71
 msgid "Category page"
 msgstr "Страница категорий"
 
@@ -770,7 +770,7 @@ msgid ""
 "\n"
 "You can then remove this Flatpak version with\n"
 "\n"
-"<tt>flatpak uninstall io.github.kolunmi.Bazaar</tt>"
+"<tt>flatpak uninstall id.blankonlinux.warsi</tt>"
 msgstr ""
 "В последних версиях Ubuntu нарушены стандартные правила безопасности, из-за "
 "чего установка приложений из Flatpak-версии Bazaar стала <b>невозможной</b>. "
@@ -780,7 +780,7 @@ msgstr ""
 "\n"
 "После этого Flatpak-версию можно удалить:\n"
 "\n"
-"<tt>flatpak uninstall io.github.kolunmi.Bazaar</tt>"
+"<tt>flatpak uninstall id.blankonlinux.warsi</tt>"
 
 #: src/bz-application.c:1051
 msgid "Continue Anyway"
@@ -814,17 +814,8 @@ msgid "Set Up Flathub?"
 msgstr "Добавить Flathub?"
 
 #: src/bz-application.c:1172
-msgid ""
-"Flathub is not set up on this system. You will not be able to browse and "
-"install applications in Bazaar if its unavailable.\n"
-"\n"
-"You can still use Bazaar to browse and remove already installed apps."
-msgstr ""
-"Flathub не настроен в этой системе. Пока он недоступен, вы не сможете "
-"просматривать и устанавливать приложения в Bazaar.\n"
-"\n"
-"Вы по-прежнему можете использовать Bazaar для просмотра и удаления уже "
-"установленных приложений."
+msgid "Flathub is not set up on this system. You will not be able to browse and install applications in Warsi if its unavailable.\n\nYou can still use Warsi to browse and remove already installed apps."
+msgstr "Flathub не настроен в этой системе. Пока он недоступен, вы не сможете просматривать и устанавливать приложения в Warsi.\n\nВы по-прежнему можете использовать Warsi для просмотра и удаления уже установленных приложений."
 
 #: src/bz-application.c:1178
 msgid "Later"
@@ -919,16 +910,8 @@ msgid "Additional dependencies may take extra space"
 msgstr "Дополнительные зависимости могут занять больше места"
 
 #: src/bz-bundle-install-dialog.blp:232
-msgid ""
-"Installing this app may require adding a new software source. Other apps "
-"from this source will show up in Bazaar.\n"
-"\n"
-"Only add this source if you're sure you trust it."
-msgstr ""
-"Для установки может потребоваться добавить новый источник приложений. "
-"Другие приложения из этого источника будут отображаться в Bazaar.\n"
-"\n"
-"Добавляйте этот источник, только если вы уверены, что доверяете ему."
+msgid "Installing this app may require adding a new software source. Other apps from this source will show up in Warsi.\n\nOnly add this source if you're sure you trust it."
+msgstr "Для установки может потребоваться добавить новый источник приложений. Другие приложения из этого источника будут отображаться в Warsi.\n\nДобавляйте этот источник, только если вы уверены, что доверяете ему."
 
 #: src/bz-bundle-install-dialog.blp:412
 msgid "Successfully Installed!"
@@ -2887,8 +2870,8 @@ msgid "Main Menu"
 msgstr "Главное меню"
 
 #: src/bz-window.blp:227
-msgid "You are running a new version of Bazaar!"
-msgstr "Вы используете новую версию Bazaar!"
+msgid "You are running a new version of Warsi!"
+msgstr "Вы используете новую версию Warsi!"
 
 #: src/bz-window.blp:228
 msgid "See What's New"
@@ -2930,12 +2913,12 @@ msgid "_Keyboard Shortcuts"
 msgstr "_Комбинации клавиш"
 
 #: src/bz-window.blp:324
-msgid "_About Bazaar"
+msgid "_About Warsi"
 msgstr "_О приложении"
 
 #: src/bz-window.blp:330
-msgid "_Quit Bazaar"
-msgstr "_Завершить Bazaar"
+msgid "_Quit Warsi"
+msgstr "_Завершить Warsi"
 
 #: src/bz-window.blp:355
 msgid "Log Out"
@@ -2944,16 +2927,16 @@ msgstr "Выйти"
 #. Translators: %s is the title of the current page
 #: src/bz-window.c:390
 #, c-format
-msgid "Bazaar — %s"
-msgstr "Bazaar — %s"
+msgid "Warsi — %s"
+msgstr "Warsi — %s"
 
 #: src/bz-window.c:635 src/bz-window.c:673
 msgid "Failed to launch application"
 msgstr "Не удалось запустить приложение"
 
 #: src/bz-window.c:925
-msgid "You can't remove Bazaar from Bazaar!"
-msgstr "Вы не можете удалить Bazaar из Bazaar!"
+msgid "You can't remove Warsi from Warsi!"
+msgstr "Вы не можете удалить Warsi из Warsi!"
 
 #: src/bz-window.c:1238 src/bz-window.c:1272
 msgid "Can't do that right now!"
@@ -3448,8 +3431,8 @@ msgstr "Закрыть окно"
 
 #: src/shortcuts-dialog.blp:52
 msgctxt "shortcut window"
-msgid "Quit Bazaar"
-msgstr "Завершить Bazaar"
+msgid "Quit Warsi"
+msgstr "Завершить Warsi"
 
 #: src/update-worker.c:358
 #, c-format

@@ -22,29 +22,30 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Gtranslator 50.0\n"
 
-#: data/io.github.kolunmi.Bazaar.desktop.in:2
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:7 src/bz-window.blp:46
+#: data/id.blankonlinux.warsi.desktop.in:2
+#: data/id.blankonlinux.warsi.metainfo.xml.in:7 src/bz-window.blp:46
 #: src/bz-window.blp:202 src/bz-window.c:373 src/bz-window.c:374
-msgid "Bazaar"
+#, fuzzy
+msgid "Warsi"
 msgstr "Bazar"
 
-#: data/io.github.kolunmi.Bazaar.desktop.in:3
+#: data/id.blankonlinux.warsi.desktop.in:3
 msgid "Add, remove or update flatpak software on this computer"
 msgstr "Añada, elimine o actualice programas flatpak en este ordenador"
 
-#: data/io.github.kolunmi.Bazaar.desktop.in:9
+#: data/id.blankonlinux.warsi.desktop.in:9
 msgid "GTK;System;PackageManager;Discover;Flatpak;Software;Store;"
 msgstr "GTK;Sistema;GestorDePaquetes;Discover;Flatpak;Software;Store;"
 
-#: data/io.github.kolunmi.Bazaar.desktop.in:16
+#: data/id.blankonlinux.warsi.desktop.in:16
 msgid "New Window"
 msgstr "Ventana nueva"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:8
+#: data/id.blankonlinux.warsi.metainfo.xml.in:8
 msgid "Discover and install apps"
 msgstr "Descubrir e instalar aplicaciones"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:10
+#: data/id.blankonlinux.warsi.metainfo.xml.in:10
 msgid ""
 "A fast and modern app store for Linux with a focus on discovering and "
 "installing Flatpak apps and add-ons, particularly from Flathub."
@@ -52,43 +53,43 @@ msgstr ""
 "Una tienda de aplicaciones rápida y moderna para Linux enfocada en descubrir "
 "e instalar aplicaciones y complementos Flatpak, particularmente de Flathub."
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:15
+#: data/id.blankonlinux.warsi.metainfo.xml.in:15
 msgid "Queue multiple installs and keep browsing"
 msgstr "Poner en cola varias instalaciones y seguir explorando"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:16
+#: data/id.blankonlinux.warsi.metainfo.xml.in:16
 msgid "Easily view app permissions"
 msgstr "Ver fácilmente los permisos de la aplicación"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:17
+#: data/id.blankonlinux.warsi.metainfo.xml.in:17
 msgid "Sign in to Flathub to view and manage your favorites"
 msgstr "Inicie sesión en Flathub para ver y gestionar sus favoritos"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:18
+#: data/id.blankonlinux.warsi.metainfo.xml.in:18
 msgid "Search apps directly from GNOME Shell"
 msgstr "Buscar aplicaciones directamente desde GNOME Shell"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:30 src/bz-application.c:786
+#: data/id.blankonlinux.warsi.metainfo.xml.in:30 src/bz-application.c:786
 msgid "The Bazaar Contributors"
 msgstr "Los colaboradores de Bazar"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:55
+#: data/id.blankonlinux.warsi.metainfo.xml.in:55
 msgid "The home page displaying Flathub apps"
 msgstr "La página de inicio que muestra las aplicaciones de Flathub"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:59
+#: data/id.blankonlinux.warsi.metainfo.xml.in:59
 msgid "Exhibit app page"
 msgstr "Página de exhibición de la aplicación"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:63
+#: data/id.blankonlinux.warsi.metainfo.xml.in:63
 msgid "Library page"
 msgstr "Página de la biblioteca"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:67
+#: data/id.blankonlinux.warsi.metainfo.xml.in:67
 msgid "Search page"
 msgstr "Página de búsqueda"
 
-#: data/io.github.kolunmi.Bazaar.metainfo.xml.in:71
+#: data/id.blankonlinux.warsi.metainfo.xml.in:71
 msgid "Category page"
 msgstr "Página de categoría"
 
@@ -779,11 +780,8 @@ msgid "Set Up Flathub?"
 msgstr "¿Configurar Flathub?"
 
 #: src/bz-application.c:1100
-msgid ""
-"Flathub is not set up on this system. You will not be able to browse and "
-"install applications in Bazaar if its unavailable.\n"
-"\n"
-"You can still use Bazaar to browse and remove already installed apps."
+#, fuzzy
+msgid "Flathub is not set up on this system. You will not be able to browse and install applications in Warsi if its unavailable.\n\nYou can still use Warsi to browse and remove already installed apps."
 msgstr ""
 "Flathub no está configurado en este sistema. No podrá explorar e instalar "
 "aplicaciones en Bazar si no está disponible.\n"
@@ -883,11 +881,8 @@ msgid "Additional dependencies may take extra space"
 msgstr "Las dependencias adicionales pueden requerir espacio extra"
 
 #: src/bz-bundle-install-dialog.blp:232
-msgid ""
-"Installing this app may require adding a new software source. Other apps "
-"from this source will show up in Bazaar.\n"
-"\n"
-"Only add this source if you're sure you trust it."
+#, fuzzy
+msgid "Installing this app may require adding a new software source. Other apps from this source will show up in Warsi.\n\nOnly add this source if you're sure you trust it."
 msgstr ""
 "Instalar esta aplicación puede requerir añadir una nueva fuente de software. "
 "Otras aplicaciones de esta fuente aparecerán en Bazar.\n"
@@ -3217,7 +3212,8 @@ msgid "Main Menu"
 msgstr "Menú principal"
 
 #: src/bz-window.blp:226
-msgid "You are running a new version of Bazaar!"
+#, fuzzy
+msgid "You are running a new version of Warsi!"
 msgstr "¡Está ejecutando una nueva versión de Bazar!"
 
 #: src/bz-window.blp:227
@@ -3261,12 +3257,13 @@ msgid "_Keyboard Shortcuts"
 msgstr "Atajos del _teclado"
 
 #: src/bz-window.blp:322
-msgid "_About Bazaar"
+#, fuzzy
+msgid "_About Warsi"
 msgstr "_Acerca de Bazar"
 
 #: src/bz-window.blp:328
-msgid "_Quit Bazaar"
-msgstr "_Salir de Bazaar"
+msgid "_Quit Warsi"
+msgstr "_Salir de Warsi"
 
 #: src/bz-window.blp:353
 msgid "Log Out"
@@ -3275,16 +3272,16 @@ msgstr "Cerrar sesión"
 #. Translators: %s is the title of the current page
 #: src/bz-window.c:376
 #, c-format
-msgid "Bazaar — %s"
-msgstr "Bazaar — %s"
+msgid "Warsi — %s"
+msgstr "Warsi — %s"
 
 #: src/bz-window.c:596 src/bz-window.c:634
 msgid "Failed to launch application"
 msgstr "Falló al iniciar la aplicación"
 
 #: src/bz-window.c:843
-msgid "You can't remove Bazaar from Bazaar!"
-msgstr "¡No puede quitar Bazaar desde el propio Bazaar!"
+msgid "You can't remove Warsi from Warsi!"
+msgstr "¡No puede quitar Warsi desde el propio Warsi!"
 
 #: src/bz-window.c:1132 src/bz-window.c:1166
 msgid "Can't do that right now!"
@@ -3349,5 +3346,5 @@ msgstr "Cerrar ventana"
 
 #: src/shortcuts-dialog.blp:52
 msgctxt "shortcut window"
-msgid "Quit Bazaar"
-msgstr "Salir de Bazaar"
+msgid "Quit Warsi"
+msgstr "Salir de Warsi"

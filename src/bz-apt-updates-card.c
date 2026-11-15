@@ -154,7 +154,7 @@ bz_apt_updates_card_class_init (BzAptUpdatesCardClass *klass)
 
   g_type_ensure (BZ_TYPE_APT_UPDATES);
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/io/github/kolunmi/Bazaar/bz-apt-updates-card.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/id/blankonlinux/warsi/bz-apt-updates-card.ui");
   gtk_widget_class_bind_template_child (widget_class, BzAptUpdatesCard, progress_row);
   gtk_widget_class_bind_template_child (widget_class, BzAptUpdatesCard, progress_bar);
   gtk_widget_class_bind_template_child (widget_class, BzAptUpdatesCard, cancel_button);

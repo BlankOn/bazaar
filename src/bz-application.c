@@ -35,6 +35,8 @@
 
 #include "bz-application-map-factory.h"
 #include "bz-application.h"
+/* DOWNSTREAM PATCH (Warsi rebrand) */
+#include "bz-rebrand.h"
 /* DOWNSTREAM PATCH (APT system updates): see ai-patches/DIFF.md */
 #include "bz-update-notifier.h"
 #include "bz-appstream-parser.h"
@@ -558,7 +560,7 @@ bz_application_command_line (GApplication            *app,
         }
 
       if (no_window)
-        g_application_command_line_printerr (cmdline, "--no-window only works with bazaar-daemon\n");
+        g_application_command_line_printerr (cmdline, "--no-window only works with warsi-daemon\n");
     }
 
   if (!self->running)
@@ -889,8 +891,8 @@ bz_application_about_action (GSimpleAction *action,
 
   g_object_set (
       dialog,
-      "application-name", "Bazaar",
-      "application-icon", "io.github.kolunmi.Bazaar",
+      "application-name", "Warsi",
+      "application-icon", "id.blankonlinux.warsi",
       "developer-name", _ ("The Bazaar Contributors"),
       "developers", developers,
       // Translators: Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
@@ -906,6 +908,10 @@ bz_application_about_action (GSimpleAction *action,
       ADW_ABOUT_DIALOG (dialog),
       _ ("Special Thanks"),
       special_thanks);
+
+  /* DOWNSTREAM PATCH (Warsi rebrand): "Originally Bazaar, heavily patched by
+   * BlankOn Linux" under the name; see ai-patches/PLAN.md, "Rebrand". */
+  bz_rebrand_about_dialog (ADW_ABOUT_DIALOG (dialog));
 
   adw_dialog_present (dialog, GTK_WIDGET (window));
 }
@@ -1030,9 +1036,9 @@ bz_application_quit_action (GSimpleAction *action,
   conn = g_bus_get_sync (G_BUS_TYPE_SESSION, NULL, &error);
   if (conn != NULL)
     g_dbus_connection_call_sync (
-        conn, "io.github.kolunmi.Bazaar.SearchProvider",
-        "/io/github/kolunmi/Bazaar/SearchProvider",
-        "io.github.kolunmi.Bazaar.Daemon",
+        conn, "id.blankonlinux.warsi.SearchProvider",
+        "/id/blankonlinux/warsi/SearchProvider",
+        "id.blankonlinux.warsi.Daemon",
         "Quit", NULL, NULL, G_DBUS_CALL_FLAGS_NONE,
         -1, NULL, &error);
 
@@ -1196,8 +1202,8 @@ init_fiber (BzWeakRef *wr,
       adw_alert_dialog_format_body (
           ADW_ALERT_DIALOG (alert),
           _ ("Flathub is not set up on this system. "
-             "You will not be able to browse and install applications in Bazaar if its unavailable.\n\n"
-             "You can still use Bazaar to browse and remove already installed apps."));
+             "You will not be able to browse and install applications in Warsi if its unavailable.\n\n"
+             "You can still use Warsi to browse and remove already installed apps."));
       adw_alert_dialog_add_responses (
           ADW_ALERT_DIALOG (alert),
           "later", _ ("Later"),
@@ -3546,12 +3552,12 @@ init_service_struct (BzApplication *self,
   g_type_ensure (BZ_TYPE_INTERNAL_CONFIG);
   g_type_ensure (BZ_TYPE_SEARCH_BIAS);
   internal_config_bytes = g_resources_lookup_data (
-      "/io/github/kolunmi/Bazaar/internal-config.yaml",
+      "/id/blankonlinux/warsi/internal-config.yaml",
       G_RESOURCE_LOOKUP_FLAGS_NONE,
       NULL);
   g_assert (internal_config_bytes != NULL);
   internal_config_parser = bz_yaml_parser_new_for_resource_schema (
-      "/io/github/kolunmi/Bazaar/internal-config-schema.xml");
+      "/id/blankonlinux/warsi/internal-config-schema.xml");
   g_assert (internal_config_parser != NULL);
   internal_config_parse_results = bz_parser_process_bytes (
       BZ_PARSER (internal_config_parser), internal_config_bytes, &local_error);
@@ -3574,7 +3580,7 @@ init_service_struct (BzApplication *self,
       g_autoptr (GHashTable) parse_results = NULL;
 
       parser = bz_yaml_parser_new_for_resource_schema (
-          "/io/github/kolunmi/Bazaar/main-config-schema.xml");
+          "/id/blankonlinux/warsi/main-config-schema.xml");
 
       parse_results = bz_parser_process_bytes (
           BZ_PARSER (parser), config_bytes, &local_error);
@@ -3729,7 +3735,7 @@ init_service_struct (BzApplication *self,
   g_type_ensure (BZ_TYPE_BLOCKLIST);
   g_type_ensure (BZ_TYPE_BLOCKLIST_CONDITION);
   self->blocklist_parser = bz_yaml_parser_new_for_resource_schema (
-      "/io/github/kolunmi/Bazaar/blocklist-schema.xml");
+      "/id/blankonlinux/warsi/blocklist-schema.xml");
 
   self->txt_blocklist_parser = bz_newline_parser_new (
       TRUE, MAX_IDS_PER_BLOCKLIST);
@@ -3739,7 +3745,7 @@ init_service_struct (BzApplication *self,
   g_type_ensure (BZ_TYPE_CURATED_SECTION);
   g_type_ensure (BZ_TYPE_CURATED_ARTICLE);
   self->curated_parser = bz_yaml_parser_new_for_resource_schema (
-      "/io/github/kolunmi/Bazaar/curated-config-schema.xml");
+      "/id/blankonlinux/warsi/curated-config-schema.xml");
 
   self->cache = bz_entry_cache_manager_new ();
 
