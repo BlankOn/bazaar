@@ -10,7 +10,7 @@ Type=Application
 Categories=GTK;Utility;
 Keywords=System;Package;Manager;Discover;Flatpak;Software;App;Store;Warung Aplikasi;Bazaar;GNOME Software;
 StartupNotify=true
-MimeType=x-scheme-handler/appstream;x-scheme-handler/flatpak;x-scheme-handler/flatpak+https;application/vnd.flatpak;application/vnd.flatpak.ref;application/x-freedesktop-appstream-component;
+MimeType=x-scheme-handler/appstream;x-scheme-handler/flatpak;x-scheme-handler/flatpak+https;application/vnd.flatpak;application/vnd.flatpak.ref;application/x-freedesktop-appstream-component;application/vnd.debian.binary-package;application/x-deb;
 Actions=new-window;
 X-Purism-FormFactor=Workstation;Mobile;
 

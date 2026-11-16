@@ -59,5 +59,12 @@ install_data('bazaar-update-notifications.desktop',
   install_dir: get_option('sysconfdir') / 'xdg' / 'autostart'
 )
 
+# DOWNSTREAM PATCH (APT system updates): open .deb files with the package
+# installer by default, see ai-patches/DIFF.md H15
+install_data('bazaar-deb-mimeapps.list',
+  rename: 'gnome-mimeapps.list',
+  install_dir: get_option('sysconfdir') / 'xdg'
+)
+
 subdir('icons')
 subdir('dbus')

@@ -39,6 +39,7 @@
 #include "bz-rebrand.h"
 /* DOWNSTREAM PATCH (APT system updates): see ai-patches/DIFF.md */
 #include "bz-update-notifier.h"
+#include "bz-deb-install-dialog.h"
 #include "bz-appstream-parser.h"
 #include "bz-auth-state.h"
 #include <bzvala.h>
@@ -4136,6 +4137,15 @@ open_location_take (BzApplication *self,
                     const char    *name_for_suffix_check,
                     GFile         *file)
 {
+  /* DOWNSTREAM PATCH (APT system updates): .deb files open the package
+   * installer, see ai-patches/DIFF.md H14 */
+  if (bz_deb_install_dialog_handles (name_for_suffix_check))
+    {
+      bz_deb_install_dialog_open (file, GTK_WIDGET (get_or_create_window (self)));
+      g_object_unref (file);
+      return;
+    }
+
   if (name_for_suffix_check != NULL &&
       (g_str_has_suffix (name_for_suffix_check, ".metainfo.xml") ||
        g_str_has_suffix (name_for_suffix_check, ".appdata.xml")))

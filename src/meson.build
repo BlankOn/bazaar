@@ -74,6 +74,9 @@ bz_sources = files(
   'bz-apt-updates-card.c',
   # DOWNSTREAM PATCH (APT system updates): notifications
   'bz-update-notifier.c',
+  # DOWNSTREAM PATCH (APT system updates): .deb file installer
+  'bz-deb-installer.c',
+  'bz-deb-install-dialog.c',
   'bz-appstream-description-render.c',
   'bz-appstream-parser.c',
   'bz-article-list-view.c',
@@ -210,6 +213,7 @@ blueprints = custom_target('blueprints',
     'bz-apps-page.blp',
     # DOWNSTREAM PATCH (APT system updates)
     'bz-apt-updates-card.blp',
+    'bz-deb-install-dialog.blp',
     'bz-appstream-description-render.blp',
     'bz-article.blp',
     'bz-article-tile.blp',
