@@ -31,6 +31,9 @@
     <!-- DOWNSTREAM PATCH (APT system updates) -->
     <file preprocess="xml-stripblanks">bz-apt-updates-card.ui</file>
     <file preprocess="xml-stripblanks">bz-deb-install-dialog.ui</file>
+    <!-- DOWNSTREAM PATCH (GNOME Extensions) -->
+    <file preprocess="xml-stripblanks">bz-gnome-extensions-page.ui</file>
+    <file preprocess="xml-stripblanks">bz-gnome-extension-dialog.ui</file>
     <file preprocess="xml-stripblanks">bz-appstream-description-render.ui</file>
     <file preprocess="xml-stripblanks">bz-article.ui</file>
     <file preprocess="xml-stripblanks">bz-article-tile.ui</file>

@@ -37,6 +37,8 @@
 #include "bz-progress-bar.h"
 #include "bz-search-bar.h"
 #include "bz-search-page.h"
+/* DOWNSTREAM PATCH (GNOME Extensions): see ai-patches/DIFF.md H16 */
+#include "bz-gnome-extensions-page.h"
 #include "bz-transaction-dialog.h"
 #include "bz-transaction-manager.h"
 #include "bz-update-history-dialog.h"
@@ -903,6 +905,8 @@ bz_window_class_init (BzWindowClass *klass)
   g_type_ensure (BZ_TYPE_ENTRY);
   g_type_ensure (BZ_TYPE_LIBRARY_PAGE);
   g_type_ensure (BZ_TYPE_FLATHUB_PAGE);
+  /* DOWNSTREAM PATCH (GNOME Extensions) */
+  g_type_ensure (BZ_TYPE_GNOME_EXTENSIONS_PAGE);
 
   gtk_widget_class_set_template_from_resource (widget_class, "/id/blankonlinux/warsi/bz-window.ui");
   bz_widget_class_bind_all_util_callbacks (widget_class);

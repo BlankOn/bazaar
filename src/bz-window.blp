@@ -140,6 +140,18 @@ template $BzWindow: Adw.ApplicationWindow {
                           state: bind template.state;
                         };
                       }
+
+                      // DOWNSTREAM PATCH (GNOME Extensions): see ai-patches/DIFF.md H17.
+                      // Shown only when GNOME Shell's extension service runs.
+                      Adw.ViewStackPage {
+                        name: "gnome-extensions";
+                        // Translators: the tab listing GNOME Shell extensions
+                        title: _("Extensions");
+                        icon-name: "application-x-addon-symbolic";
+                        visible: bind gnome_extensions_page.available;
+
+                        child: $BzGnomeExtensionsPage gnome_extensions_page {};
+                      }
                     };
                   }
                 };

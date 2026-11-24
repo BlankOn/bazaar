@@ -28,6 +28,12 @@ src/bz-update-notifier.c
 src/bz-deb-installer.c
 src/bz-deb-install-dialog.blp
 src/bz-deb-install-dialog.c
+# DOWNSTREAM PATCH (GNOME Extensions)
+src/bz-gnome-extensions.c
+src/bz-gnome-extensions-page.blp
+src/bz-gnome-extensions-page.c
+src/bz-gnome-extension-dialog.blp
+src/bz-gnome-extension-dialog.c
 src/bz-appstream-parser.c
 src/bz-article-list-view.c
 src/bz-article-tile.blp

@@ -77,6 +77,10 @@ bz_sources = files(
   # DOWNSTREAM PATCH (APT system updates): .deb file installer
   'bz-deb-installer.c',
   'bz-deb-install-dialog.c',
+  # DOWNSTREAM PATCH (GNOME Extensions)
+  'bz-gnome-extensions.c',
+  'bz-gnome-extensions-page.c',
+  'bz-gnome-extension-dialog.c',
   'bz-appstream-description-render.c',
   'bz-appstream-parser.c',
   'bz-article-list-view.c',
@@ -214,6 +218,9 @@ blueprints = custom_target('blueprints',
     # DOWNSTREAM PATCH (APT system updates)
     'bz-apt-updates-card.blp',
     'bz-deb-install-dialog.blp',
+    # DOWNSTREAM PATCH (GNOME Extensions)
+    'bz-gnome-extensions-page.blp',
+    'bz-gnome-extension-dialog.blp',
     'bz-appstream-description-render.blp',
     'bz-article.blp',
     'bz-article-tile.blp',
