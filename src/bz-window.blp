@@ -149,6 +149,22 @@ template $BzWindow: Adw.ApplicationWindow {
                   orientation: vertical;
 
                   Adw.HeaderBar top_header_bar {
+                    // DOWNSTREAM PATCH (Warsi rebrand): the Warsi wordmark,
+                    // style.css .warsi-wordmark.
+                    [start]
+                    Box {
+                      visible: bind $invert_boolean(template.state as <$BzStateInfo>.busy) as <bool>;
+                      width-request: 80;
+                      height-request: 24;
+                      valign: center;
+                      margin-start: 6;
+                      can-target: false;
+
+                      styles [
+                        "warsi-wordmark",
+                      ]
+                    }
+
                     [start]
                     MenuButton {
                       visible: bind try {template.state as <$BzStateInfo>.auth-state as <$BzAuthState>.authenticated, false};
@@ -254,6 +270,8 @@ template $BzWindow: Adw.ApplicationWindow {
 
           setters {
             top_header_bar.title-widget: null;
+            // DOWNSTREAM PATCH (Warsi rebrand): the wordmark names the app
+            top_header_bar.show-title: false;
             toolbar_view.reveal-bottom-bars: true;
           }
 

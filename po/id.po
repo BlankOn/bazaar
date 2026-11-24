@@ -4686,3 +4686,13 @@ msgstr "Dibangun dari Bazaar, dimodifikasi oleh BlankOn Linux"
 #: data/id.blankonlinux.warsi.metainfo.xml.in:14
 msgid "Warsi is based on Bazaar and patched by BlankOn Linux. Besides Flatpak apps, it also keeps the system's Debian APT packages up to date."
 msgstr "Warsi dibangun dari Bazaar dan dimodifikasi oleh BlankOn Linux. Selain aplikasi Flatpak, Warsi juga menjaga paket APT Debian di sistem tetap mutakhir."
+
+#. Translators: Please treat "Warsi" as a brand name and avoid translating.
+#: src/bz-rebrand.c:64
+msgid "Warsi Logo"
+msgstr "Logo Warsi"
+
+#. Translators: Please treat "Warsi" and "Praise" as names and avoid translating.
+#: src/bz-rebrand.c:67
+msgid "The Warsi logo is set in the Praise typeface by Robert Leuschke, licensed under the <a href=\"https://openfontlicense.org\">SIL Open Font License, Version 1.1</a>."
+msgstr "Logo Warsi menggunakan huruf Praise karya Robert Leuschke, dengan lisensi <a href=\"https://openfontlicense.org\">SIL Open Font License, Versi 1.1</a>."

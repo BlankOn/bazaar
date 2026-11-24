@@ -4,6 +4,8 @@
 
     <file>style.css</file>
     <file>inspector.css</file>
+    <!-- DOWNSTREAM PATCH (Warsi rebrand) -->
+    <file preprocess="xml-stripblanks">warsi-wordmark-symbolic.svg</file>
 
     <file>internal-config.yaml</file>
     <file alias="pride-flags.yaml">progress-bar-designs/pride/pride-flags.yaml</file>

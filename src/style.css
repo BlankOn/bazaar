@@ -1033,3 +1033,13 @@ distro-chart-row:focus-visible {
 	outline: 2px solid alpha(var(--accent-color), 0.5);
 	outline-offset: -2px;
 }
+
+/* DOWNSTREAM PATCH (Warsi rebrand): the header bar wordmark, recoloured
+ * with the accent colour (bz-window.blp). */
+.warsi-wordmark {
+	color: var(--accent-color);
+	background-image: -gtk-recolor(url("resource:///id/blankonlinux/warsi/warsi-wordmark-symbolic.svg"));
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: left center;
+}
