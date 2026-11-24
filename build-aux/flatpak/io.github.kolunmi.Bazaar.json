@@ -27,7 +27,7 @@
     "--system-talk-name=org.freedesktop.PackageKit",
     "--system-talk-name=org.freedesktop.login1",
     "--talk-name=org.gnome.SessionManager",
-    "--talk-name=org.gnome.Shell.Extensions"
+    "--talk-name=org.gnome.Shell"
   ],
   "cleanup": [
     "/share/zsh",
